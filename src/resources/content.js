@@ -6,11 +6,11 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
+  role: "Content Creator, Full Stack Designer ",
+  avatar: "/images/avatar.png",
+  email: "eaeniko@proton.me",
   location: "America/Sao_Paulo", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["Portuguese", "English"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["Portuguese", "English", "Italian"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -19,7 +19,7 @@ const newsletter = {
   description: (
     <>
       I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      creativity and livestreaming.
     </>
   ),
 };
@@ -30,17 +30,22 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/eaeniko",
+  },
+  {
+    name: "Youtube",
+    icon: "youtube",
+    link: "https://www.youtube.com/eaeniko"
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/eaeniko",
   },
   {
     name: "Threads",
     icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.threads.com/@eaeniko",
   },
   {
     name: "Email",
@@ -48,7 +53,7 @@ const social = [
     link: `mailto:${person.email}`,
   },
 ];
-
+//<Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/> change to my logo in subline
 const home = {
   path: "/",
   image: "/images/og/home.jpg",
@@ -63,8 +68,9 @@ const home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+    
+      I'm Nikolai, a multi content creator that loves Tech and being Online. I try to craft innovative 
+      <br />ideias, with intuitive user experiences. After hours, I take care of my cats.
     </>
   ),
 };
@@ -90,9 +96,10 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Nikolai is a Brazilian streamer with a passion for transforming real life problems challenges
+        into simple, elegant design solutions. His work spans digital interfaces, interactive experiences,
+        and the convergence of design and technology.
+        He loves creating innovative online ideas for streaming and online content.
       </>
     ),
   },
