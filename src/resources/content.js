@@ -60,7 +60,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Solving real-world problems through gamification</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
@@ -69,8 +69,9 @@ const home = {
   subline: (
     <>
     
-      I'm Nikolai, a multi content creator that loves Tech and being Online. I try to craft innovative 
-      <br />ideias, with intuitive user experiences. After hours, I take care of my cats.
+      I'm Nikolai, a multi content creator that loves
+      Tech and to do everything on stream. I try to craft innovative ideias
+      <br />with intuitive user experiences. After hours, I take care of my cats.
     </>
   ),
 };
