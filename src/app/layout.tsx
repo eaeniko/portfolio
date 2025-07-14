@@ -9,7 +9,6 @@ import classNames from "classnames";
 import { Background, Column, Flex, Meta, opacity, SpacingToken } from "@once-ui-system/core";
 import { Footer, Header, RouteGuard, Providers } from '@/components';
 import { baseURL, effects, fonts, style, dataStyle, home } from '@/resources';
-import Script from 'next/script';
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -40,6 +39,7 @@ export default async function RootLayout({
       )}
     >
       <head>
+        <meta name="google-adsense-account" content="ca-pub-7328591460493456"></meta>
         <script
           id="theme-init"
           dangerouslySetInnerHTML={{
@@ -161,18 +161,6 @@ export default async function RootLayout({
           <SpeedInsights />
           <Analytics />
         </Providers>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-          strategy="afterInteractive"
-          crossOrigin="anonymous"
-        />
-        <Script id="adsbygoogle-init" strategy="afterInteractive">
-          {`(adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-7328591460493456",
-            enable_page_level_ads: true
-          });`}
-        </Script>
       </Flex>
   );
 }
