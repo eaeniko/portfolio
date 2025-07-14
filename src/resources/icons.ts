@@ -22,7 +22,23 @@ import {
   PiImageDuotone,
 } from "react-icons/pi";
 
-import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads } from "react-icons/fa6";
+import {
+  FaDiscord,
+  FaGithub,
+  FaLinkedin,
+  FaX,
+  FaThreads,
+  FaSquareYoutube,
+  FaTwitch,
+  FaInstagram,
+  FaFigma,
+  FaTelegram,
+  FaSteam,
+  FaTiktok,
+  FaShop,
+  FaSpotify,
+  FaWhatsapp,
+} from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
   arrowUpRight: HiArrowUpRight,
@@ -41,11 +57,14 @@ export const iconLibrary: Record<string, IconType> = {
   eyeOff: HiOutlineEyeSlash,
   github: FaGithub,
   linkedin: FaLinkedin,
+  instagram: FaInstagram,
   x: FaX,
   threads: FaThreads,
   arrowUpRightFromSquare: HiArrowTopRightOnSquare,
   document: HiOutlineDocument,
-  rocket: HiOutlineRocketLaunch
+  rocket: HiOutlineRocketLaunch,
+  twitch: FaTwitch,
+  youtube: FaSquareYoutube,
 };
 
 export type IconLibrary = typeof iconLibrary;

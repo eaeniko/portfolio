@@ -7,10 +7,10 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Content Creator, Full Stack Designer ",
-  avatar: "/images/avatar.png",
+  avatar: "/images/avatar.jpg",
   email: "eaeniko@proton.me",
   location: "America/Sao_Paulo", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["Portuguese", "English", "Italian"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["Portuguese - Native", "English - B2", "Italian - A1"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -33,19 +33,34 @@ const social = [
     link: "https://github.com/eaeniko",
   },
   {
-    name: "Youtube",
-    icon: "youtube",
-    link: "https://www.youtube.com/eaeniko"
-  },
-  {
     name: "LinkedIn",
     icon: "linkedin",
     link: "https://www.linkedin.com/in/eaeniko",
   },
   {
+    name: "Youtube",
+    icon: "youtube",
+    link: "https://www.youtube.com/eaeniko"
+  },
+  {
+    name: "Twitch",
+    icon: "twitch",
+    link: "https://www.twitch.tv/eaeniko",
+  },
+  {
+    name: "X",
+    icon: "x",
+    link: "https://www.x.com/eaeniko",
+  },
+  {
     name: "Threads",
     icon: "threads",
     link: "https://www.threads.com/@eaeniko",
+  },
+  {
+    name: "Discord",
+    icon: "discord",
+    link: "https://www.x.com/eaeniko",
   },
   {
     name: "Email",
@@ -69,8 +84,8 @@ const home = {
   subline: (
     <>
     
-      I'm Nikolai, a multi content creator that loves
-      Tech and to do everything on stream. I try to craft innovative ideias
+      I'm Nikolai, a multi content creator that loves Tech and to
+      do everything on stream. I try to craft innovative ideias
       <br />with intuitive user experiences. After hours, I take care of my cats.
     </>
   ),
