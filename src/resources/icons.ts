@@ -38,10 +38,19 @@ import {
   FaShop,
   FaSpotify,
   FaWhatsapp,
+  FaFacebook,
 } from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
   arrowUpRight: HiArrowUpRight,
+  facebook: FaFacebook,
+  tiktok: FaTiktok,
+  spotify: FaSpotify,
+  shop: FaShop,
+  whatsapp: FaWhatsapp,
+  steam: FaSteam,
+  telegram: FaTelegram,
+  figma: FaFigma,
   arrowRight: HiArrowRight,
   email: HiEnvelope,
   globe: HiOutlineGlobeAsiaAustralia,

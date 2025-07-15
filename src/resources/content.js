@@ -18,8 +18,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and livestreaming.
+      I occasionally write about livestreaming, design, technology, and share thoughts on the intersection of
+      creativity and code.
     </>
   ),
 };
@@ -27,6 +27,11 @@ const newsletter = {
 const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
+  {
+    name: "My Clothing Store",
+    icon: "shop",
+    link: "https://www.instagram.com/mundo42_",
+  },
   {
     name: "GitHub",
     icon: "github",
@@ -48,6 +53,11 @@ const social = [
     link: "https://www.twitch.tv/eaeniko",
   },
   {
+    name: "Facebook",
+    icon: "facebook",
+    link: "https://www.facebook.com/eaeniko"
+  },
+  {
     name: "X",
     icon: "x",
     link: "https://www.x.com/eaeniko",
@@ -60,7 +70,37 @@ const social = [
   {
     name: "Discord",
     icon: "discord",
-    link: "https://www.x.com/eaeniko",
+    link: "https://discord.gg/n9yEFyMVTz",
+  },
+  {
+    name: "Spotify",
+    icon: "spotify",
+    link: "https://open.spotify.com/user/225fxzliesyi4gy5gzsgmnoqa?si=f9c4965329c84127",
+  },
+  {
+    name: "Tiktok",
+    icon: "tiktok",
+    link: "https://www.tiktok.com/eaeniko",
+  },
+  {
+    name: "Figma",
+    icon: "figma",
+    link: "https://www.figma.com/design/ljyEi1RRCWTXkEwiHub4ik/Aplicativo-para-condominio?t=Lj6UNWx8ePRcX1t5-0",
+  },
+  {
+    name: "Steam",
+    icon: "steam",
+    link: "https://steamcommunity.com/id/eaeniko/",
+  },
+  {
+    name: "Telegram",
+    icon: "telegram",
+    link: "https://www.telegram.com/eaeniko",
+  },
+  {
+    name: "Whatsapp",
+    icon: "whatsapp",
+    link: "https://wa.me/11998948309",
   },
   {
     name: "Email",
