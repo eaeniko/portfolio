@@ -6,9 +6,9 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Content Creator, Full Stack Designer ",
+  role: "Content Creator, Full Stack Designer, Gamer & Tech Enthusiast",
   avatar: "/images/avatar.jpg",
-  email: "eaeniko@proton.me",
+  email: "eaenikolai@gmail.com",
   location: "America/Sao_Paulo", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["Portuguese - Native", "English - B2", "Italian - A1"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -58,7 +58,7 @@ const social = [
     link: "https://www.facebook.com/eaeniko"
   },
   {
-    name: "X",
+    name: "X (Twitter)",
     icon: "x",
     link: "https://www.x.com/eaeniko",
   },
@@ -118,8 +118,8 @@ const home = {
   headline: <>Solving real-world problems through gamification</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
-    href: "/work/building-once-ui-a-customizable-design-system",
+    title: <>Recent project: <strong className="ml-4">Gendrify ID</strong></>,
+    href: "/work/GID-Gendrify-ID-new-PWA",
   },
   subline: (
     <>
