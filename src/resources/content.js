@@ -164,17 +164,15 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "GID - Gendrify ID",
+        timeframe: "04-2025 - Present",
+        role: "Project Manager & Full Stack Designer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Redesigned the UI/UX for the GID platform and deployed the PWA for users for the first time
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            The new improved design make the user experience journey more intuitive.
           </>,
         ],
         images: [
@@ -188,17 +186,16 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Myself",
+        timeframe: "2016 - present",
+        role: "Content Creator",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Multi-content creator with a focus on livestreaming, gaming, design, and technology.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Started as a hobby in 2016 as a League of legends streamer, now it a passion that I try to make it as a job.
+            Already created more than 10000+ hours of content on Twitch and YouTube. Did some work for companies and big creators like; Diggo, Banco Santander, Riot Games, CNB eSports, Beyond the Summit brasil (Betway) and more.
           </>,
         ],
         images: [],
@@ -210,12 +207,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Trybe",
+        description: <>Intensive Front-end Bootcamp - Html, css, js and react.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Alura",
+        description: <>+40 courses about tech, dev, content creator done in the plataform.</>,
       },
     ],
   },
@@ -225,7 +222,7 @@ const about = {
     skills: [
       {
         title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        description: <>Able to prototype, micro interation, wireframes and low fidelity prototype in Figma.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -262,7 +259,7 @@ const about = {
 const blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "Writing about things I love to learn...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
