@@ -10,7 +10,8 @@ import {
   Tag,
   Text,
   Meta,
-  Schema
+  Schema,
+  SmartLink
 } from "@once-ui-system/core";
 import { baseURL, about, person, social } from "@/resources";
 import TableOfContents from "@/components/about/TableOfContents";
@@ -317,6 +318,16 @@ export default function About() {
           )}
         </Column>
       </Flex>
+      <Text onBackground="neutral-weak">
+            {/* Usage of this template requires attribution. Please don't remove the link to Once UI. */}
+            / Created with{" "}
+            <SmartLink
+              href="https://once-ui.com/products/magic-portfolio"
+            >
+              Once UI
+            </SmartLink>
+          </Text>
     </Column>
+    
   );
 }
