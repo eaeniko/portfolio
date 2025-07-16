@@ -172,14 +172,14 @@ const about = {
             Redesigned the UI/UX for the GID platform and deployed the PWA for users for the first time
           </>,
           <>
-            The new improved design make the user experience journey more intuitive.
+            The new improved design make the user experience journey more intuitive for both users and professionals .
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
             src: "/images/projects/gid-project/cover-01.jpg",
-            alt: "Once UI Project",
+            alt: "GID Figma Project",
             width: 16,
             height: 9,
           },
@@ -195,10 +195,17 @@ const about = {
           </>,
           <>
             Started as a hobby in 2016 as a League of legends streamer, now it a passion that I try to make it as a job.
-            Already created more than 10000+ hours of content on Twitch and YouTube. Did some work for companies and big creators like; Diggo, Banco Santander, Riot Games, CNB eSports, Beyond the Summit brasil (Betway) and more.
+            Already created more than 10000+ hours of content on Twitch and YouTube. Did some work for companies and big creators like; Diggo (Youtuber), Banco Santander/CNB eSports, Beyond the Summit brasil (Betway) and more.
+            Always trying to improve my skills (design, video editing, streaming, etc) and to learn and create cool new things.
           </>,
         ],
-        images: [],
+        images: [{
+          src: "/images/projects/content-creator/cover-01.png",
+          alt: "Print of a reels with a lot of views",
+          width: 10,
+          height: 9,
+          }
+        ],
       },
     ],
   },
