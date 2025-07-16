@@ -128,7 +128,7 @@ const effects = {
 };
 
 const mailchimp = {
-  action: "https://url/subscribe/post?parameters",
+  action: "https://app.us12.list-manage.com/subscribe/post?u=7ebb7d1be4ba8acd030481d9e&amp;id=5e5071be4b&amp;f_id=009d08e8f0",
   effects: {
     mask: {
       cursor: true,
@@ -174,17 +174,17 @@ const mailchimp = {
 // default schema data
 const schema = {
   logo: "",
-  type: "Organization",
-  name: "Once UI",
+  type: "Individual",
+  name: "Nikolai Cinotti",
   description: home.description,
-  email: "lorant@once-ui.com",
+  email: "eaenikolai@gmail.com",
 };
 
 // social links
 const sameAs = {
-  threads: "https://www.threads.com/@once_ui",
-  linkedin: "https://www.linkedin.com/company/once-ui/",
-  discord: "https://discord.com/invite/5EyAQ4eNdS",
+  threads: "https://www.threads.com/@eaeniko",
+  linkedin: "https://www.linkedin.com/in/eaeniko/",
+  discord: "https://discord.gg/n9yEFyMVTz",
 };
 
 export { display, mailchimp, routes, protectedRoutes, baseURL, fonts, style, schema, sameAs, effects, dataStyle };
