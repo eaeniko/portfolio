@@ -60,7 +60,7 @@ const fonts = {
 
 // default customization applied to the HTML in the main layout.tsx
 const style = {
-  theme: "system", // dark | light | system
+  theme: "dark", // dark | light | system
   neutral: "gray", // sand | gray | slate | custom
   brand: "cyan", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
   accent: "red", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan | custom
@@ -73,7 +73,7 @@ const style = {
 };
 
 const dataStyle = {
-  variant: "gradient", // flat | gradient | outline
+  variant: "flat", // flat | gradient | outline
   mode: "categorical", // categorical | divergent | sequential
   height: 24, // default chart height
   axis: {
@@ -185,6 +185,7 @@ const sameAs = {
   threads: "https://www.threads.com/@eaeniko",
   linkedin: "https://www.linkedin.com/in/eaeniko/",
   discord: "https://discord.gg/n9yEFyMVTz",
+  github: "https://github.com/eaeniko",
 };
 
 export { display, mailchimp, routes, protectedRoutes, baseURL, fonts, style, schema, sameAs, effects, dataStyle };
