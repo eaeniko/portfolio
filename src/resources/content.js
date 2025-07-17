@@ -186,7 +186,7 @@ const about = {
         ],
       },
       {
-        company: "Myself",
+        company: "Personal Projects",
         timeframe: "2016 - present",
         role: "Content Creator",
         achievements: [
@@ -194,16 +194,37 @@ const about = {
             Multi-content creator with a focus on livestreaming, gaming, design, and technology.
           </>,
           <>
-            Started as a hobby in 2016 as a League of legends streamer, now it a passion that I try to make it as a job.
-            Already created more than 10000+ hours of content on Twitch and YouTube. Did some work for companies and big creators like; Diggo (Youtuber), Banco Santander/CNB eSports, Beyond the Summit brasil (Betway) and more.
+            Started as a hobby in 2016 as a League of legends streamer, now it is a passion that I try to make it as a job.
+            Already created more than 10000+ hours of content on Twitch and YouTube over the past 10 years. 
+          </>,
+          <>
+            Did some work for companies and big creators like; Diggo (Youtuber), Banco Santander/CNB eSports, Beyond the Summit brasil (Betway) and more.
             Always trying to improve my skills (design, video editing, streaming, etc) and to learn and create cool new things.
           </>,
+          <>
+            I have a clothing store where I sell my own designs and custom T-shirt prints and other cloths.
+          </>,
+          <>
+            I try to be a enterpeneur and to create new things, like my own clothing store, a game, a app, etc. 
+          </>
         ],
         images: [{
           src: "/images/projects/content-creator/cover-01.png",
-          alt: "Print of a reels with a lot of views",
+          alt: "Print of a reels with a lot of views and likes",
           width: 10,
           height: 9,
+          },
+          {
+            src: "/images/projects/content-creator/cover-02.png",
+            alt: "Print of a youtube videos with a lot of views",
+            width: 10,
+            height: 9,
+          },
+          {
+            src: "/images/projects/content-creator/cover-03.png",
+            alt: "Print of a youtube videos with a lot of views and likes",
+            width: 10,
+            height: 9,
           }
         ],
       },
