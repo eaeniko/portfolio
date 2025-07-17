@@ -205,7 +205,7 @@ const about = {
             I have a clothing store where I sell my own designs and custom T-shirt prints and other cloths.
           </>,
           <>
-            I try to be a enterpeneur and to create new things, like my own clothing store, a game, a app, etc. 
+            I try to be a enterpeneur and to create new things, like my own clothing store, a game, a usefull gamefication app, etc. 
           </>
         ],
         images: [{
