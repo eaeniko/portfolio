@@ -30,10 +30,10 @@ export default function Live() {
       />
       
       <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-        <iframe src="https://player.twitch.tv/?channel=eaeniko&parent=localhost&eaeniko.vercel.app/live" frameBorder="0" allowFullScreen={true} scrolling="no" height="600" width="750"></iframe>
+        <iframe src="https://player.twitch.tv/?channel=eaeniko&parent=eaeniko.vercel.app/live" frameBorder="0" allowFullScreen={true} scrolling="no" height="600" width="750"></iframe>
         <iframe
           id="chat_embed"
-          src="https://www.twitch.tv/embed/eaeniko/chat?parent=localhost&eaeniko.vercel.app/live"
+          src="https://www.twitch.tv/embed/eaeniko/chat?parent=eaeniko.vercel.app/live"
           height="600"
           width="250">
         </iframe>
