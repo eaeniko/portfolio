@@ -15,6 +15,7 @@ export default function Live() {
   return (
     <Column maxWidth="m">
       <h1>{live.label}</h1>
+      <p>WIP - Work in progress, come back soon</p>
       <Schema
         as="webPage"
         baseURL={baseURL}

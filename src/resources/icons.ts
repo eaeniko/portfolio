@@ -41,8 +41,11 @@ import {
   FaFacebook,
 } from "react-icons/fa6";
 
+import { RiLiveFill } from "react-icons/ri";
+
 export const iconLibrary: Record<string, IconType> = {
   arrowUpRight: HiArrowUpRight,
+  live: RiLiveFill,
   facebook: FaFacebook,
   tiktok: FaTiktok,
   spotify: FaSpotify,
