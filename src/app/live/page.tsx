@@ -14,10 +14,7 @@ export async function generateMetadata() {
 export default function Live() {
   return (
     <Column maxWidth="m">
-      <h1>{live.label}</h1>
-      <p>WIP - Work in progress, come back soon</p>
-      <iframe src="https://player.twitch.tv/?channel=eaeniko&parent=www.eaeniko.vercel.app" frameBorder="0" allowFullScreen={true} scrolling="no" height="378" width="620"></iframe>
-
+      <h1>{live.label}</h1>      
       <Schema
         as="webPage"
         baseURL={baseURL}
@@ -32,6 +29,15 @@ export default function Live() {
         }}
       />
       
+      <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+        <iframe src="https://player.twitch.tv/?channel=eaeniko&parent=localhost&eaeniko.vercel.app/live" frameBorder="0" allowFullScreen={true} scrolling="no" height="600" width="750"></iframe>
+        <iframe
+          id="chat_embed"
+          src="https://www.twitch.tv/embed/eaeniko/chat?parent=localhost&eaeniko.vercel.app/live"
+          height="600"
+          width="250">
+        </iframe>
+      </div>      
     </Column>
   );
 }
