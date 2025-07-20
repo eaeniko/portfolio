@@ -33,9 +33,17 @@ export default function Live() {
         <iframe src="https://player.twitch.tv/?channel=eaeniko&parent=eaeniko.vercel.app/live" frameBorder="0" allowFullScreen={true} scrolling="no" height="600" width="750"></iframe>
         <iframe
           id="chat_embed"
-          src="https://www.twitch.tv/embed/eaeniko/chat?parent=eaeniko.vercel.app/live"
-          height="600"
-          width="250">
+          src={
+            "https://www.twitch.tv/embed/eaeniko/chat" +
+            "?parent=localhost" +
+            "&parent=eaeniko.vercel.app" +
+            "&parent=www.eaeniko.vercel.app"
+          }
+          frameBorder="0"
+          scrolling="no"
+          height="500"
+          width="350">
+
         </iframe>
       </div>      
     </Column>
