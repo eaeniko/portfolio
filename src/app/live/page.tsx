@@ -1,6 +1,7 @@
 import { Column, Meta, Schema } from "@once-ui-system/core";
 import { baseURL, about, person, live } from "@/resources";
 
+
 export async function generateMetadata() {
   return Meta.generate({
     title: live.title,
@@ -13,7 +14,7 @@ export async function generateMetadata() {
 
 export default function Live() {
   return (
-    <Column maxWidth="m">
+    <Column fillWidth gap="xl" marginBottom="1" paddingX="xl">
       <h1>{live.label}</h1>      
       <Schema
         as="webPage"
@@ -29,7 +30,7 @@ export default function Live() {
         }}
       />
       
-      <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+      <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
         <iframe
           src={
             "https://player.twitch.tv/?channel=eaeniko" +
@@ -40,8 +41,8 @@ export default function Live() {
           frameBorder="0"
           allowFullScreen
           scrolling="no"
-          height="550"
-          width="650"
+          height="600"
+          width="900"
         />
         <iframe
           id="chat_embed"
@@ -53,7 +54,7 @@ export default function Live() {
           }
           frameBorder="0"
           scrolling="no"
-          height="550"
+          height="600"
           width="350">
 
         </iframe>
