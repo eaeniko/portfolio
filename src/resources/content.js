@@ -175,7 +175,7 @@ const about = {
         role: "Project Manager & Full Stack Designer",
         achievements: [
           <>
-            Redesigned the UI/UX for the GID platform and deployed the PWA for users for the first time
+            Redesigned the UI/UX for the GID platform and deployed the MVP PWA for users for the first time
           </>,
           <>
             The new improved design make the user experience journey more intuitive for both users and professionals .
@@ -234,6 +234,21 @@ const about = {
           }
         ],
       },
+      {
+        company: "CNB eSports / Banco Santander",
+        timeframe: "06/2024 - 09/2024",
+        role: "Content Creator",
+        achievements: [
+          <>In partnership with Santander Games Pro and CNB Academy, I was responsible for:
+          </>,
+          <> Creating viral vertical videos for posting on social media </>,
+          <> Scripting, recording, and editing were my responsibility</>,
+          <> Content aimed at gamers and League of Legends players.</>,
+          <> There were more than 10 vertical videos (TikTok, Instagram, etc.) that got over 150,000 views in total.</>
+
+        ],
+        images: [],
+      },
     ],
   },
   studies: {
@@ -260,13 +275,13 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/gid-project/cover-02.jpg",
+            src: "/images/projects/wip.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/gid-project/cover-03.jpg",
+            src: "/images/projects/wip.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -279,7 +294,7 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/gid-project/cover-04.jpg",
+            src: "/images/projects/wip.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
