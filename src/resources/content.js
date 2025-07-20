@@ -171,7 +171,7 @@ const about = {
     experiences: [
       {
         company: "GID - Gendrify ID",
-        timeframe: "04-2025 - Present",
+        timeframe: "04-2025 - Present (Volunteer Work)",
         role: "Project Manager & Full Stack Designer",
         achievements: [
           <>
