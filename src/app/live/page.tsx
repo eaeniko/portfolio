@@ -16,6 +16,8 @@ export default function Live() {
     <Column maxWidth="m">
       <h1>{live.label}</h1>
       <p>WIP - Work in progress, come back soon</p>
+      <iframe src="https://player.twitch.tv/?channel=eaeniko&parent=www.eaeniko.vercel.app/live" frameBorder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+
       <Schema
         as="webPage"
         baseURL={baseURL}
@@ -29,6 +31,7 @@ export default function Live() {
           image: `${baseURL}${person.avatar}`,
         }}
       />
+      
     </Column>
   );
 }
