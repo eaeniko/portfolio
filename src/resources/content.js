@@ -24,6 +24,12 @@ const newsletter = {
   ),
 };
 
+const live = {
+  path: "/live",
+  label: "Live",
+  title: `${person.name} - Live Stream`,
+  description: `Watch what I'm doing right now ${person.name}`,
+}
 const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
@@ -353,4 +359,4 @@ const gallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { live, person, social, newsletter, home, about, blog, work, gallery };

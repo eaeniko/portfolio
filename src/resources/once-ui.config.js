@@ -6,6 +6,7 @@ const baseURL = "https://eaeniko.vercel.app/";
 const routes = {
   "/": true,
   "/about": true,
+  "/live": true,
   "/work": true,
   "/blog": true,
   "/gallery": true,
