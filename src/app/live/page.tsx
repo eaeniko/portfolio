@@ -14,7 +14,7 @@ export async function generateMetadata() {
 
 export default function Live() {
   return (
-    <Column fillWidth gap="xl" marginBottom="1" paddingX="xl">
+    <Column fillWidth gap="xl" marginBottom="1" paddingX="xl" marginLeft="m">
       <h1>{live.label}</h1>      
       <Schema
         as="webPage"
@@ -30,7 +30,7 @@ export default function Live() {
         }}
       />
       
-      <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap" }}>
+      <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginLeft:"4rem" }}>
         <iframe
           src={
             "https://player.twitch.tv/?channel=eaeniko" +
