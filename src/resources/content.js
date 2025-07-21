@@ -249,6 +249,23 @@ const about = {
         ],
         images: [],
       },
+      {
+        company: "Beyond the Summit Brasil (BetWay)",
+        timeframe: "07/2020 - 10/2020",
+        role: "Content Creator",
+        achievements: [
+          <>
+          At first, I was responsible for the live production of the LCK and LPL League of Legends championship broadcasts on Betway's official channel (which meant rebroadcasting the official live streams). A few weeks later, I also had the chance to work as a commentator for the same channel's championships.
+          </>,
+          <> I was in charge of all the tech stuff for the broadcasts, making sure they were running smoothly. </>,
+          <> Making changes to layouts and editing.</>,
+          <> The commentator's job is to keep the audience hooked.</>,
+          <> We had over 250 people watching at the same time.</>,
+          <> I'm responsible for the drawings that are shown to viewers.</>,
+
+        ],
+        images: [],
+      },
     ],
   },
   studies: {
