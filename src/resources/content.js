@@ -274,7 +274,21 @@ const about = {
     institutions: [
       {
         name: "Trybe",
-        description: <>Intensive Front-end Bootcamp - Html, css, js and react.</>,
+        description: 
+        <>
+          6 Months Intensive Front-end Bootcamp (+750 hours) 
+          <br /> Trybe's first module covers content related to Web Development Fundamentals, applying practical content such as:
+          <br />- Unix & Bash, Git,
+          <br />- Basic JS & DOM,
+          <br />- HTML, CSS, JS ES6,
+          <br />- Higher Order Functions and Unit Testing,
+          <br />- As well as agile methodologies and soft skills.,
+          <br /><br />Trybe's second module, which covers content related to development
+          <br />- Front-end
+          <br />- React, including Components, State and Events, Controlled Components, Lifecycle, Router, Testing with RTL, Redux with React, Context API, React Hooks,
+          <br />- More agile methodologies and soft skills.
+          <br /><a href="https://github.com/eaeniko/Trybe/tree/main" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Github Link</a>,
+        </>
       },
       {
         name: "Alura",
