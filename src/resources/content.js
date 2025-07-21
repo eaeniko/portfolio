@@ -287,7 +287,7 @@ const about = {
           <br />- Front-end
           <br />- React, including Components, State and Events, Controlled Components, Lifecycle, Router, Testing with RTL, Redux with React, Context API, React Hooks,
           <br />- More agile methodologies and soft skills.
-          <br /><a href="https://github.com/eaeniko/Trybe/tree/main" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Github Link</a>,
+          <br /><a href="https://github.com/eaeniko/Trybe/tree/main" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Github Link</a>
         </>
       },
       {
@@ -300,6 +300,25 @@ const about = {
     display: true, // set to false to hide this section
     title: "Technical skills",
     skills: [
+      {
+        title: "Static websites / Landing pages",
+        description: <>Simple but elegant static websites with modern HTML, CSS, Javascript (ES6+ / TypeScript).</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/wip.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "React / Next.js",
+        description: <>Able to create components, use hooks, redux and other things to create a responsive SSR / SSG.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [],
+      },
       {
         title: "Figma",
         description: <>Able to prototype, micro interation, wireframes and low fidelity prototype in Figma.</>,
@@ -321,7 +340,7 @@ const about = {
       },
       {
         title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        description: <>Building next gen apps with Next.js and others frameworks.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
