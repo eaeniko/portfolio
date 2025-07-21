@@ -292,7 +292,8 @@ const about = {
       },
       {
         name: "Alura",
-        description: <>+40 courses about tech, dev, content creator done in the plataform.</>,
+        description: <>+40 courses about tech, dev, content creator done in the plataform.
+        <br /><a href="https://cursos.alura.com.br/user/eaeniko" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Alura Profile with all certificates</a></>,
       },
     ],
   },
