@@ -5,6 +5,7 @@ import { home, about, person, newsletter, baseURL, routes } from "@/resources";
 import { Mailchimp } from "@/components";
 import { Projects } from "@/components/work/Projects";
 import { Posts } from "@/components/blog/Posts";
+import { LearningProjects } from "@/components/learning/learningProjects";
 
 export default function Home() {
   return (
@@ -79,6 +80,18 @@ export default function Home() {
           </Flex>
           <Flex flex={3} paddingX="20">
             <Posts range={[1, 2]} columns="2" />
+          </Flex>
+        </Flex>
+      )}
+      {routes["/learning"] && (
+        <Flex fillWidth gap="24" mobileDirection="column">
+          <Flex flex={1} paddingLeft="l" paddingTop="24">
+            <Heading as="h2" variant="display-strong-xs" wrap="balance">
+              Latest from my learning experiences
+            </Heading>
+          </Flex>
+          <Flex flex={3} paddingX="20">
+            <LearningProjects range={[1, 2]} columns="2" />
           </Flex>
         </Flex>
       )}

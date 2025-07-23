@@ -1,6 +1,6 @@
 import { Column, Meta, Schema } from "@once-ui-system/core";
 import { baseURL, about, person, learning } from "@/resources";
-import { Projects } from "@/components/learning/Projects";
+import { LearningProjects } from "@/components/learning/learningProjects";
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -12,7 +12,7 @@ export async function generateMetadata() {
   });
 }
 
-export default function Learning() {
+export default function learningProjects() {
   return (
     <Column maxWidth="m">
       <Schema
@@ -28,7 +28,7 @@ export default function Learning() {
           image: `${baseURL}${person.avatar}`,
         }}
       />
-      <Projects />
+      <LearningProjects />
     </Column>
   );
 }

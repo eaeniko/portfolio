@@ -3,10 +3,13 @@ import { Column } from "@once-ui-system/core";
 import { ProjectCard } from "@/components";
 
 interface ProjectsProps {
-  range?: [number, number?];
+  range?: [number] | [number, number];
+    columns?: '1' | '2' | '3';
+    thumbnail?: boolean;
+    direction?: 'row' | 'column';
 }
 
-export function Projects({ range }: ProjectsProps) {
+export function LearningProjects({ range }: ProjectsProps) {
   let allProjects = getPosts(["src", "app", "learning", "projects"]);
 
   const sortedProjects = allProjects.sort((a, b) => {
