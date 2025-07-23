@@ -39,12 +39,14 @@ import {
   FaSpotify,
   FaWhatsapp,
   FaFacebook,
+  FaLaptopCode,
 } from "react-icons/fa6";
 
 import { RiLiveLine } from "react-icons/ri";
 
 export const iconLibrary: Record<string, IconType> = {
   arrowUpRight: HiArrowUpRight,
+  code: FaLaptopCode,
   live: RiLiveLine,
   facebook: FaFacebook,
   tiktok: FaTiktok,
