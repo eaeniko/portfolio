@@ -1,0 +1,152 @@
+body {
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: #F2FFFC;
+    font-size: 120%;
+    line-height: 1.5;
+}
+main {
+    float: left;
+    padding-bottom: 80px;
+    width: calc(100% - 0.9 * 300px);
+}
+h1,
+h2,
+.subtitulo-principal {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    text-shadow: 5px 5px #000;
+}
+
+.titulo-principal {
+    font-size: 300%;
+    text-align: center;
+    background-color: #851944;
+    color: #FFF;
+    padding: 2rem;
+    border-bottom: .5rem solid #000;
+}
+
+.subtitulo-texto {
+    font-size: 30px;
+    clear: both;
+}
+
+main a {
+    color: #851944;
+}
+main a:hover, main a:focus, footer a:hover, footer a:focus {
+    color: red;
+}
+
+main p {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.navegacao-site {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    text-align: center;
+    padding: 20px;
+    float: right;
+    top: 300px;
+    position: relative;
+    width: calc(0.9 * 300px);
+}
+.navegacao-site a:hover, .navegacao-site a:focus {
+    text-shadow:  0 0 2px pink;
+}
+.navegacao-site a {
+    color: inherit;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    text-transform: lowercase;
+}
+
+.navegacao-site h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.rodape-pagina {
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    box-sizing: border-box;
+    color: #F2FFFC;
+    clear: both;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    width: 100%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
+    width: 720px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.icones-redes-sociais li {
+    display: inline-block;
+}
+
+.icones-redes-sociais a {
+    display: block;
+    height: 40px;
+    text-indent: -99999px;
+    width: 40px;
+    position: relative;
+}
+
+.github {
+    background-image: url(../imagens/github.png);
+}
+
+.twitter {
+    background-image: url(../imagens/twitter.png);
+}
+
+.linkedin {
+    background-image: url(../imagens/linkedin.png);
+}
+
+
+
+.minha-foto,
+.navegacao-site {
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+    box-sizing: border-box;
+}
+
+
+
+.minha-foto {
+    height: 300px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.icones-redes-sociais a:hover::after,
+.icones-redes-sociais a:focus::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 100%;
+    right: 0;
+    text-indent: 0;
+    width: 300%;
+    background: #011;
+    font-size: .75em;
+}

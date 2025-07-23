@@ -28,7 +28,13 @@ const live = {
   path: "/live",
   label: "Live",
   title: `${person.name} - Live Stream`,
-  description: `Watch what I'm doing right now ${person.name}`,
+  description: `Watch what's ${person.name} is doing right now `,
+}
+const learning = {
+  path: "/learning",
+  label: "Learning",
+  title: `${person.name} - Personal Projects`,
+  description: `Personal projects by ${person.name}`,
 }
 const social = [
   // Links are automatically displayed.
@@ -425,4 +431,4 @@ const gallery = {
   ],
 };
 
-export { live, person, social, newsletter, home, about, blog, work, gallery };
+export { live, learning, person, social, newsletter, home, about, blog, work, gallery };

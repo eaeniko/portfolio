@@ -4,6 +4,7 @@ export {
   social,
   newsletter,
   live,
+  learning,
   home,
   about,
   blog,

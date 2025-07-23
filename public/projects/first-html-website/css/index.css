@@ -1,0 +1,297 @@
+
+html {
+    height: 100%
+}
+body {
+    overflow-x: hidden;
+    height: 100%;
+    perspective: 6px;
+    perspective-origin: 50% 160px;
+}
+header {
+    position: relative;
+}
+@keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+}
+@keyframes aparece {
+    0% {
+        opacity: 0;
+        transform: scale(0, 001)
+    }
+}
+.palavras-home {
+    perspective: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    animation:  aparece 2s;
+}
+
+
+.palavras-home li {
+    font-size: 250%;
+}
+.banner-twitter {
+    animation: aparece 0.5s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    box-sizing: border-box;
+    background-color: #3C1D3D;
+    border: .25em solid black;
+    color: #FFF;
+    font-size: .6em;
+    font-family: "Open Sans Condensed", sans-serif;
+    line-height: 1;
+    padding: 1em 0;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: -26px;
+    transform-origin: 0 0;
+    transform: translate(6.9em, -2.3em) rotate(45deg);
+    right: 0;
+    width:  14em;
+}
+/* palavras chaves */
+.palavra-home {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    color: #D5447E;
+    position: absolute;
+}
+
+.eficiencia {
+    top: 38%;
+    left: 81%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(0px) scale(0.25);
+}
+
+.boas-praticas {
+    top: 85%;
+    left: 17%;
+    transform: translate(-50%, -50%) rotate(10deg) translateX(0px) scale(0.25);
+}
+
+.codigo-limpo {
+    top: 56%;
+    left: 10%;
+    transform: translate(-50%, -50%) rotate(-10deg) translateZ(0px) scale(0.25);
+}
+
+.css3 {
+    top: 63%;
+    left: 33%;
+    transform: translate(-50%, -50%) rotate(5deg) translateZ(2px) scale(0.25);
+}
+
+.html5 {
+    top: 58%;
+    left: 72%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(2px) scale(0.25);
+}
+
+.javascript {
+    top: 23%;
+    left: 66%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(1px) scale(0.25);
+}
+
+.acessibilidade {
+    top: 37%;
+    left: 26%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(.5px) scale(0.25);
+}
+
+.responsivo {
+    top: 19%;
+    left: 14%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(.5px) scale(0.25);
+}
+
+.otimizacoes {
+    top: 81%;
+    left: 75%;
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(.5px) scale(0.25);
+}
+
+.agilidade {
+    top: 18%;
+    left: 35%;
+    transform: translate(-50%, -50%) rotate(5deg) translateZ(1px) scale(0.25);
+}
+
+.design {
+    top: 48%;
+    left: 65%;
+    transform: translate(-50%, -50%) rotate(10deg) translateZ(.5px) scale(0.25);
+}
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
+.titulo-principal {
+    background-image:  linear-gradient(to bottom: #F)
+}
+.foto-home {
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 .5em #000;
+}
+.saudacao p {
+    color: #99A;
+    font-size: 1.5em;
+    line-height: 1;
+    padding: 2em;
+}
+.saudacao-inicio {
+    color: #889;
+    font-size: 3em;
+}
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+.saudacao strong {
+    color: #000;
+    font-size: 2em;
+}
+.saudacao em {
+    animation: flutua 1s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    color: #851944;
+    display: inline-block;
+    font-size: 4em;
+    transform: rotate(-5deg) skew(-10deg);
+    position: relative;
+}
+.saudacao p:hover em {
+    animation-play-state: paused;
+}
+.botao-index {
+    background-color: #851944;
+    border: .2em solid black;
+    color: #FFF;
+    display: block;
+    font-size: 1.25em;
+    text-align: center;
+    margin: 2em auto;
+    width: 40ch;
+    box-shadow: 0 0 .5em #000, inset 0 0 .3em #FFF;
+    text-decoration: none;
+    transition: .5s;
+}
+.botao-index:focus,
+.botao-index:hover {
+    background-color: #C54974;
+    color: white;
+    box-shadow: 0 0 1em #FA9;
+}
+.secao-inicio {
+    padding: 2em;
+}
+.secao-inicio h2 {
+    font-size: 3em;
+    margin-bottom: .5em;
+    text-transform: uppercase;
+    text-shadow: 5px 5px #000;
+
+}
+.trabalhos {
+    background-color: #3C1D3D;
+    border-top: .5em solid #000;
+    border-bottom: .5em solid #000;
+    background-image: linear-gradient(135deg, transparent, transparent 14px, rgba(0,0,0,.1) 14px, rgba(0,0,0,.1) 15px, transparent 15px, transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
+}
+.trabalhos h2 {
+    color: #FFF;
+}
+.trabalhos ul {
+    display: -webkit-flex;
+    display:         flex;
+}
+.trabalhos li {
+    -webkit-flex: auto;
+            flex: auto;
+    border: .5em solid #000;
+}
+.trabalhos li:first-child {
+    order: 2;
+    transform: scale(1.2);
+}
+.trabalhos li:nth-child(2) {
+    order: 1;
+}
+.trabalhos li:nth-child(3) {
+    order: 3;
+}
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+.blog {
+    background-color: #999;
+    border-bottom: .5em solid #851944;
+    color: #FFF;
+    position:  relative;
+}
+.blog small {
+    position: relative;
+    top: -2em;
+}
+.blog li {
+    width: 30%;
+}
+.blog li a
+ {
+    color: #FCC;
+    display: block;
+    padding: .5em;
+}
+.blog .inicio-post {
+    background-color: #F2FFFC;
+    color: #000;
+    height: 10em;
+    left: 30%;
+    right: 13em;
+    top: 4em;
+    padding: 1.5em;
+    position: absolute;  
+}
+.blog a:hover + .inicio-post,
+.blog a:focus + .inicio-post {
+    display: block;
+}
+.blog a:hover,
+.blog a:focus {
+    background-color: #F2FFFC;
+    color: #F26;
+}
+.mais-recente {
+    background-color: #F2FFFC;
+}
+.blog.mais-recente a {
+    color: #F26;
+}
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 2em;
+}
+footer h2 {
+    font-size: 3em;
+}
+footer a {
+    color: #F99;
+}
