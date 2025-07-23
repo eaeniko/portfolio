@@ -33,8 +33,8 @@ const live = {
 const learning = {
   path: "/learning",
   label: "Learning",
-  title: `${person.name} - Personal Projects`,
-  description: `Personal projects by ${person.name}`,
+  title: `A little bit of what I have learned`,
+  description: `Personal learning by ${person.name}`,
 }
 const social = [
   // Links are automatically displayed.

@@ -1,4 +1,4 @@
-import { Column, Meta, Schema } from "@once-ui-system/core";
+import { Column, Heading, Meta, Schema } from "@once-ui-system/core";
 import { baseURL, about, person, learning } from "@/resources";
 import { LearningProjects } from "@/components/learning/learningProjects";
 
@@ -28,6 +28,9 @@ export default function learningProjects() {
           image: `${baseURL}${person.avatar}`,
         }}
       />
+      <Heading marginBottom="l" variant="display-strong-s" align="center">
+        {learning.title}
+      </Heading>
       <LearningProjects />
     </Column>
   );
