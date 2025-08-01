@@ -3,6 +3,7 @@ import '@once-ui-system/core/css/tokens.css';
 import '@/resources/custom.css'
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
+import Script from "next/script";
 
 import classNames from "classnames";
 
@@ -40,6 +41,8 @@ export default async function RootLayout({
     >
       <head>
         <meta name="google-adsense-account" content="ca-pub-7328591460493456"></meta>
+        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7328591460493456"
+     crossOrigin="anonymous" strategy='lazyOnload'></Script>
         <script
           id="theme-init"
           dangerouslySetInnerHTML={{
