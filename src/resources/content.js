@@ -291,7 +291,7 @@ const about = {
           height: 9,
           },
         ],
-      }
+      },
       {
         company: "Beyond the Summit Brasil (BetWay)",
         timeframe: "07/2020 - 10/2020",
