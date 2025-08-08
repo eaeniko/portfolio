@@ -256,6 +256,43 @@ const about = {
         images: [],
       },
       {
+      company: "Mundo 42 - Personal Brand (Clothing Store, Podcast, etc)",
+        timeframe: "04/2025 - Present",
+        role: "Content Creator",
+        achievements: [
+          <>This is my personal nerd brand (nerd/geek culture) somethings about this brand:
+          </>,
+          <> Clothing Store with custom print </>,
+          <> Podcast about books, series, anime etc</>,
+
+        ],
+        images: [{
+          src: "/images/projects/mundo-42/shirt-1.png",
+          alt: "Photo of a T-shirt with a custom print",
+          width: 10,
+          height: 9,
+          },
+          {
+          src: "/images/projects/mundo-42/shirt-2.png",
+          alt: "Photo of a T-shirt with a custom print",
+          width: 10,
+          height: 9,
+          },
+          {
+          src: "/images/projects/mundo-42/shirt-3.png",
+          alt: "Photo of a T-shirt with a custom print",
+          width: 10,
+          height: 9,
+          },
+          {
+          src: "/images/projects/mundo-42/shirt-4.png",
+          alt: "Photo of a T-shirt with a custom print",
+          width: 10,
+          height: 9,
+          },
+        ],
+      }
+      {
         company: "Beyond the Summit Brasil (BetWay)",
         timeframe: "07/2020 - 10/2020",
         role: "Content Creator",
