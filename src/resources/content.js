@@ -258,7 +258,7 @@ const about = {
       {
       company: "Mundo 42 - Personal Brand (Clothing Store, Podcast, etc)",
         timeframe: "04/2025 - Present",
-        role: "Content Creator",
+        role: "Owner",
         achievements: [
           <>This is my personal nerd brand (nerd/geek culture) somethings about this brand:
           </>,
@@ -279,7 +279,7 @@ const about = {
           height: 9,
           },
           {
-          src: "/images/projects/mundo-42/shirt-3.png",
+          src: "/images/projects/mundo-42/shirt-3.mp4",
           alt: "Photo of a T-shirt with a custom print",
           width: 10,
           height: 9,
