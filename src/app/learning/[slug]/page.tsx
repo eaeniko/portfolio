@@ -5,7 +5,7 @@ import { baseURL, about, person, learning } from "@/resources";
 import { formatDate } from "@/utils/formatDate";
 import { ScrollToHash, CustomMDX } from "@/components";
 import { Metadata } from "next";
-import InArticleAd from "@/components/googleAds/InArticleAd";
+import InArticleAd from '@/components/googleAds/InArticleAd';
 
 
 
