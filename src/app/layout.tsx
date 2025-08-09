@@ -158,7 +158,7 @@ export default async function RootLayout({
                   {children}
                 </RouteGuard>
               </Flex>
-            </Flex>
+            </Flex><br/>
             <Footer/>
           </Column>
           <SpeedInsights />
