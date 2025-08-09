@@ -1,5 +1,5 @@
 import { MDXRemote, MDXRemoteProps } from "next-mdx-remote/rsc";
-import React, { ReactNode, useEffect } from "react";
+import React, { ReactNode } from "react";
 
 import { 
   Heading,
@@ -53,37 +53,27 @@ function CustomLink({ href, children, ...props }: CustomLinkProps) {
 }
 
 function InArticleAd() {
-  useEffect(() => {
-    // Verifica se o script já foi carregado para evitar duplicatas
-    if (typeof window !== "undefined" && !window.adsbygoogle) {
-      const script = document.createElement("script");
-      script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7328591460493456";
-      script.async = true;
-      script.crossOrigin = "anonymous";
-      document.head.appendChild(script);
-    }
-
-    // Inicializa o anúncio após o carregamento do script
-    if (typeof window !== "undefined" && window.adsbygoogle) {
-      try {
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
-      } catch (e) {
-        console.error("Falha ao inicializar o Adsense:", e);
-      }
-    }
-  }, []);
-
   return (
-    <Box marginY="16" textAlign="center">
+    <>
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7328591460493456"
+        crossOrigin="anonymous"
+      ></script>
       <ins
         className="adsbygoogle"
-        style={{ display: "block" }}
+        style={{ display: "block", textAlign: "center" }}
         data-ad-layout="in-article"
         data-ad-format="fluid"
         data-ad-client="ca-pub-7328591460493456"
         data-ad-slot="5125221554"
       ></ins>
-    </Box>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: "(adsbygoogle = window.adsbygoogle || []).push({});",
+        }}
+      />
+    </>
   );
 }
 
