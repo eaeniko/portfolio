@@ -4,7 +4,6 @@ import '@/resources/custom.css'
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
- import AdManager from './AdManager'; // Importa o componente cliente
 
 
 import classNames from "classnames";
@@ -49,13 +48,7 @@ export default async function RootLayout({
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7328591460493456"
-          crossOrigin="anonymous"
-          onLoad={() => {
-            // Inicializa os anúncios após o carregamento do script
-            if (window.adsbygoogle) {
-              (window.adsbygoogle = window.adsbygoogle || []).push({});
-            }
-          }}
+          crossOrigin="anonymous" strategy='lazyOnload'
         />
         <script
           id="theme-init"
@@ -175,7 +168,6 @@ export default async function RootLayout({
             </Flex>
             <Footer/>
           </Column>
-          <AdManager />
           <SpeedInsights />
           <Analytics />
         </Providers>
