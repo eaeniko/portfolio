@@ -16,7 +16,7 @@ export const Footer = () => {
     >
       <Flex
         className={styles.mobile}
-        maxWidth="l"
+        maxWidth="xl"
         paddingY="8"
         paddingX="16"
         gap="16"
