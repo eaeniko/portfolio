@@ -94,7 +94,6 @@ export default async function Project({
             {post.metadata.publishedAt && formatDate(post.metadata.publishedAt)}
           </Text>
         </Flex>
-        <CustomMDX source={post.content} />
         <script
         async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7328591460493456"
@@ -108,6 +107,8 @@ export default async function Project({
         data-ad-client="ca-pub-7328591460493456"
         data-ad-slot="3014596360"
       ></ins>
+        <CustomMDX source={post.content} />
+        
       </Column>
       <ScrollToHash />
     </Column>
