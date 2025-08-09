@@ -159,6 +159,7 @@ export default async function RootLayout({
                 </RouteGuard>
               </Flex>
             </Flex>
+            <Column maxWidth="xl" minHeight="20" />
             <Footer/>
           </Column>
           <SpeedInsights />
