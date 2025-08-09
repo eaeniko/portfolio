@@ -13,6 +13,7 @@ export const Footer = () => {
       horizontal="center"
       mobileDirection="column"
       minHeight="80"
+      maxWidth="xl"
     >
       <Flex
         className={styles.mobile}
