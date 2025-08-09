@@ -51,4 +51,11 @@
   --scheme-neutral-600-30: rgba(137,152,159,0.3);
   --scheme-neutral-600-50: rgba(137,152,159,0.5);
   /*
+
 }*/
+
+.ad-space {
+  width: 100%;
+  max-width: 912px; /* Largura do anúncio */
+  margin: 0 auto; /* Centraliza */
+}
