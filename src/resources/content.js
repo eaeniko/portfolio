@@ -241,26 +241,11 @@ const about = {
         ],
       },
       {
-        company: "CNB eSports / Banco Santander",
-        timeframe: "06/2024 - 09/2024",
-        role: "Content Creator",
-        achievements: [
-          <>In partnership with Santander Games Pro and CNB Academy, I was responsible for:
-          </>,
-          <> Creating viral vertical videos for posting on social media </>,
-          <> Scripting, recording, and editing were my responsibility</>,
-          <> Content aimed at gamers and League of Legends players.</>,
-          <> There were more than 10 vertical videos (TikTok, Instagram, etc.) that got over 150,000 views in total.</>
-
-        ],
-        images: [],
-      },
-      {
       company: "Mundo 42 - Personal Brand (Clothing Store, Podcast, etc)",
         timeframe: "04/2025 - Present",
         role: "Owner",
         achievements: [
-          <>This is my personal nerd brand (nerd/geek culture) somethings about this brand:
+          <>This is my personal brand (nerd/geek culture). Where somethings I do here:
           </>,
           <> Clothing Store with custom print </>,
           <> Podcast about books, series, anime etc</>,
@@ -291,6 +276,21 @@ const about = {
           height: 9,
           },
         ],
+      },
+      {
+        company: "CNB eSports / Banco Santander",
+        timeframe: "06/2024 - 09/2024",
+        role: "Content Creator",
+        achievements: [
+          <>In partnership with Santander Games Pro and CNB Academy, I was responsible for:
+          </>,
+          <> Creating viral vertical videos for posting on social media </>,
+          <> Scripting, recording, and editing were my responsibility</>,
+          <> Content aimed at gamers and League of Legends players.</>,
+          <> There were more than 10 vertical videos (TikTok, Instagram, etc.) that got over 150,000 views in total.</>
+
+        ],
+        images: [],
       },
       {
         company: "Beyond the Summit Brasil (BetWay)",
