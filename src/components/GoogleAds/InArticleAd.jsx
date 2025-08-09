@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export default function GoogleAd() {
+export default function InArticleAd() {
   useEffect(() => {
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
