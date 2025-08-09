@@ -5,6 +5,9 @@ import { baseURL, about, person, learning } from "@/resources";
 import { formatDate } from "@/utils/formatDate";
 import { ScrollToHash, CustomMDX } from "@/components";
 import { Metadata } from "next";
+import InArticleAd from "@/components/googleAds/InArticleAd";
+
+
 
 export async function generateStaticParams(): Promise<{ slug: string }[]> {
   const posts = getPosts(["src", "app", "learning", "projects"]);
@@ -92,6 +95,7 @@ export default async function Project({
           </Text>
         </Flex>
         <CustomMDX source={post.content} />
+        <InArticleAd />
       </Column>
       <ScrollToHash />
     </Column>
