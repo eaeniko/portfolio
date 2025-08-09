@@ -2,7 +2,7 @@
 declare global {
   interface Window {
     adsbygoogle?: {
-      push: (args: unknown[]) => void;
+      push: (args: {} | unknown[]) => void; // Ajustado para aceitar {} ou unknown[]
     }[];
   }
 }
