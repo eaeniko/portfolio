@@ -1,5 +1,6 @@
 import { MDXRemote, MDXRemoteProps } from "next-mdx-remote/rsc";
 import React, { ReactNode } from "react";
+import Script from "next/script";
 
 import { 
   Heading,
@@ -55,27 +56,41 @@ function CustomLink({ href, children, ...props }: CustomLinkProps) {
 function InArticleAd() {
   return (
     <>
-      <script
-        async
+      {/* Carrega o script do Adsense apenas no cliente */}
+      <Script
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7328591460493456"
+        strategy="afterInteractive" // Carrega após a página ser interativa
         crossOrigin="anonymous"
-      ></script>
-      <ins
-        className="adsbygoogle"
-        style={{ display: "block", textAlign: "center" }}
-        data-ad-layout="in-article"
-        data-ad-format="fluid"
-        data-ad-client="ca-pub-7328591460493456"
-        data-ad-slot="5125221554"
-      ></ins>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: "(adsbygoogle = window.adsbygoogle || []).push({});",
-        }}
       />
+      <Grid marginY="16" textAlign="center">
+        <ins
+          className="adsbygoogle"
+          style={{ display: "block" }}
+          data-ad-layout="in-article"
+          data-ad-format="fluid"
+          data-ad-client="ca-pub-7328591460493456"
+          data-ad-slot="5125221554"
+        ></ins>
+        {/* Inicializa o anúncio no cliente */}
+        <Script
+          id="adsense-init"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              try {
+                (window.adsbygoogle = window.adsbygoogle || []).push({});
+              } catch (e) {
+                console.error("Falha ao inicializar o Adsense:", e);
+              }
+            `,
+          }}
+        />
+      </Grid>
     </>
   );
 }
+
+export default InArticleAd;
 
 function createImage({ alt, src, ...props }: MediaProps & { src: string }) {
   if (!src) {
