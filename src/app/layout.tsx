@@ -159,13 +159,6 @@ export default async function RootLayout({
                 </RouteGuard>
               </Flex>
             </Flex>
-            <Column
-            gap="l"
-            minHeight="320" // Ajustado para 320px (300px do anúncio + 20px de margem)
-            className="ad-space" // Classe para sinalizar o espaço de anúncio
-          >
-            <div style={{ height: '400px' }} />
-          </Column>
             <Footer/>
           </Column>
           <SpeedInsights />
