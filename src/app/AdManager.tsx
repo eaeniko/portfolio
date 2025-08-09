@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from 'next/navigation';
-import { useEffect } from 'react';
+import { useEffect, useRef  } from 'react';
 
 // Declaração de tipo para adsbygoogle (se não estiver em global.d.ts)
 declare global {

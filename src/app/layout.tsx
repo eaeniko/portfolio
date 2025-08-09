@@ -4,7 +4,7 @@ import '@/resources/custom.css'
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
-import AdManager from './AdManager'; // Importa o componente cliente
+ import AdManager from './AdManager'; // Importa o componente cliente
 
 
 import classNames from "classnames";
