@@ -1,23 +1,13 @@
-"use client";
 import '@once-ui-system/core/css/styles.css';
 import '@once-ui-system/core/css/tokens.css';
 import '@/resources/custom.css'
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
-import { usePathname } from 'next/navigation';
-import { useEffect } from 'react';
+import AdManager from './AdManager'; // Importa o componente cliente
+
 
 import classNames from "classnames";
-
-// Declaração de tipo inline
-declare global {
-  interface Window {
-    adsbygoogle?: {
-      push: (args: unknown[]) => void;
-    }[];
-  }
-}
 
 import { Background, Column, Flex, Meta, opacity, SpacingToken } from "@once-ui-system/core";
 import { Footer, Header, RouteGuard, Providers } from '@/components';
@@ -41,15 +31,6 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const pathname = usePathname(); // Detecta a rota atual
-
-  // Efeito para reiniciar o AdSense ao mudar de rota
-  useEffect(() => {
-    if (window.adsbygoogle) {
-      // Força o recarregamento dos anúncios
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    }
-  }, [pathname]); // Executa toda vez que a rota muda
   return (
     <Flex
       suppressHydrationWarning
@@ -194,6 +175,7 @@ export default async function RootLayout({
             </Flex>
             <Footer/>
           </Column>
+          <AdManager />
           <SpeedInsights />
           <Analytics />
         </Providers>
