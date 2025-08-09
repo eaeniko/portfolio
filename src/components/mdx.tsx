@@ -62,7 +62,7 @@ function InArticleAd() {
         strategy="afterInteractive" // Carrega após a página ser interativa
         crossOrigin="anonymous"
       />
-      <Grid marginY="16" textAlign="center">
+      <Grid marginY="16" align="center">
         <ins
           className="adsbygoogle"
           style={{ display: "block" }}
