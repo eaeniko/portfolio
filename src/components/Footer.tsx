@@ -12,12 +12,10 @@ export const Footer = () => {
       padding="8"
       horizontal="center"
       mobileDirection="column"
-      minHeight="80"
-      maxWidth="xl"
     >
       <Flex
         className={styles.mobile}
-        maxWidth="xl"
+        maxWidth="m"
         paddingY="8"
         paddingX="16"
         gap="16"
@@ -38,14 +36,14 @@ export const Footer = () => {
                   href={item.link}
                   icon={item.icon}
                   tooltip={item.name}
-                  size="s"
+                  size="m"
                   variant="ghost"
                 />
               ),
           )}
         </Flex>
       </Flex>
-      <Flex height="80" show="s"></Flex>
+      <Flex height="80" show="m"></Flex>
     </Flex>
   );
 };
