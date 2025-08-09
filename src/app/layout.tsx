@@ -4,12 +4,26 @@ import '@/resources/custom.css'
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
+import { usePathname } from 'next/navigation';
+import { useEffect } from 'react';
 
 import classNames from "classnames";
+
+// Declaração de tipo inline
+declare global {
+  interface Window {
+    adsbygoogle?: {
+      push: (args: unknown[]) => void;
+    }[];
+  }
+}
 
 import { Background, Column, Flex, Meta, opacity, SpacingToken } from "@once-ui-system/core";
 import { Footer, Header, RouteGuard, Providers } from '@/components';
 import { baseURL, effects, fonts, style, dataStyle, home } from '@/resources';
+
+
+
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -26,6 +40,15 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const pathname = usePathname(); // Detecta a rota atual
+
+  // Efeito para reiniciar o AdSense ao mudar de rota
+  useEffect(() => {
+    if (window.adsbygoogle) {
+      // Força o recarregamento dos anúncios
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    }
+  }, [pathname]); // Executa toda vez que a rota muda
   return (
     <Flex
       suppressHydrationWarning
@@ -41,8 +64,17 @@ export default async function RootLayout({
     >
       <head>
         <meta name="google-adsense-account" content="ca-pub-7328591460493456"></meta>
-        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7328591460493456"
-     crossOrigin="anonymous"></Script>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7328591460493456"
+          crossOrigin="anonymous"
+          onLoad={() => {
+            // Inicializa os anúncios após o carregamento do script
+            if (window.adsbygoogle) {
+              (window.adsbygoogle = window.adsbygoogle || []).push({});
+            }
+          }}
+        />
         <script
           id="theme-init"
           dangerouslySetInnerHTML={{
