@@ -1,6 +1,6 @@
 import { Column, Meta, Schema } from "@once-ui-system/core";
 import { baseURL, about, person, live } from "@/resources";
-
+import InLiveAdBelow from "@/components/mdx";
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -58,7 +58,9 @@ export default function Live() {
           width="350">
 
         </iframe>
-      </div>      
+      </div>
+      <InLiveAdBelow/>
+      
     </Column>
   );
 }

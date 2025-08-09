@@ -52,6 +52,25 @@ function CustomLink({ href, children, ...props }: CustomLinkProps) {
     </a>
   );
 }
+function InLiveAdBelow() {
+  return (
+    <>
+      {/* Carrega o script do Adsense apenas no cliente */}
+      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7328591460493456"
+     crossOrigin="anonymous"></Script>
+      
+      <ins className="adsbygoogle"
+        style={{display:"block"}}
+        data-ad-client="ca-pub-7328591460493456"
+        data-ad-slot="1152550473"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <Script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </Script>
+    </>
+  );
+}
 
 function InArticleAd() {
   return (
@@ -220,6 +239,7 @@ const components = {
   Media,
   SmartLink,
   InArticleAd,
+  InLiveAdBelow,
 };
 
 
