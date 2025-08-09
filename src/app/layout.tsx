@@ -160,7 +160,7 @@ export default async function RootLayout({
               </Flex>
             </Flex>
             {/* Adiciona um espaço reservado para anúncios automáticos acima do footer */}
-            <Column gap="xl" style={{ marginBottom: '40px', minHeight: '100px' }} />
+            <Column gap="xl" style={{ marginBottom: '40px', minHeight: '320px' }} />
             <Footer/>
           </Column>
           <SpeedInsights />
