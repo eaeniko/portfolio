@@ -42,7 +42,7 @@ export default async function RootLayout({
       <head>
         <meta name="google-adsense-account" content="ca-pub-7328591460493456"></meta>
         <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7328591460493456"
-     crossOrigin="anonymous" strategy='lazyOnload'></Script>
+     crossOrigin="anonymous"></Script>
         <script
           id="theme-init"
           dangerouslySetInnerHTML={{
