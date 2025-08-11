@@ -336,6 +336,7 @@ const about = {
           </>,
           <>
           Post's links:
+          <br />
           <a className="text-blue-500 hover:underline" href="https://www.alura.com.br/artigos/aplicando-mascaras-na-sua-imagem-com-o-photoshop" target="_blank" rel="noopener noreferrer"> How to apply mask in your photoshop image </a>
           <br />
           <a className="text-blue-500 hover:underline" href="https://www.alura.com.br/artigos/fazendo-recortes-na-imagem-com-crop-tool-no-photoshop" target="_blank" rel="noopener noreferrer"> How to use Crop Tool in photoshop </a>
