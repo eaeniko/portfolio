@@ -210,6 +210,11 @@ const about = {
             Already created more than 10000+ hours of content on Twitch and YouTube over the past 10 years. 
           </>,
           <>
+            About Numbers on Social Media plataforms: 
+            <br/>+40k Followers
+            <br/>+1 milion views
+          </>,
+          <>
             Did some work for companies and big creators like; Diggo (Youtuber), Banco Santander/CNB eSports, Beyond the Summit brasil (Betway) and more.
             Always trying to improve my skills (design, video editing, streaming, etc) and to learn and create cool new things.
           </>,
@@ -302,9 +307,46 @@ const about = {
           </>,
           <> I was in charge of all the tech stuff for the broadcasts, making sure they were running smoothly. </>,
           <> Making changes to layouts and editing.</>,
-          <> The commentator's job is to keep the audience hooked.</>,
+          <> The caster's job is to keep the audience hooked.</>,
           <> We had over 250 people watching at the same time.</>,
           <> I'm responsible for the drawings that are shown to viewers.</>,
+
+        ],
+        images: [],
+      },
+      {
+        company: "Alura - Online Courses",
+        timeframe: "08/2017 - 12/2017",
+        role: "Web Writer",
+        achievements: [
+          <>
+          Created and developed posts for Alura's blog focused on Design and Programming.
+          </>,
+          <>
+          Created about 7 articles in total, 4 of which are still included in the UX & Design training as extra content in the articles section, making them the only articles in the entire training.
+          </>,
+          <>
+          Researched recurring topics and questions from students.
+          </>,
+          <>
+          Applied didactic explanations of the topic with real-life examples.
+          </>,
+          <>
+          Daily and Weekly with agile practices using Scrum.
+          </>,
+          <>
+          Post's links:
+          <link className="text-blue-500 hover:underline" href="https://www.alura.com.br/artigos/aplicando-mascaras-na-sua-imagem-com-o-photoshop" target="_blank" rel="noopener noreferrer"> How to apply mask in your photoshop image </link>
+          <br />
+          <link className="text-blue-500 hover:underline" href="https://www.alura.com.br/artigos/fazendo-recortes-na-imagem-com-crop-tool-no-photoshop" target="_blank" rel="noopener noreferrer"> How to use Crop Tool in photoshop </link>
+          <br />
+          <link className="text-blue-500 hover:underline" href="https://www.alura.com.br/artigos/o-que-sao-imagens-vetoriais-e-por-que-utiliza-las" target="_blank" rel="noopener noreferrer"> What is a Vector Image </link>
+          <br />
+          <link className="text-blue-500 hover:underline" href="https://www.alura.com.br/artigos/melhorando-capa-de-um-canal-no-youtube" target="_blank" rel="noopener noreferrer"> How to make a better Youtube Cover art </link>
+          <br />
+          <link className="text-blue-500 hover:underline" href="https://www.alura.com.br/artigos/utilizando-decupagem-nos-seus-projetos-de-video" target="_blank" rel="noopener noreferrer"> How to decupate a video </link>
+          </>
+
 
         ],
         images: [],
