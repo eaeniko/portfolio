@@ -225,24 +225,13 @@ const about = {
             I try to be a enterpeneur and to create new things, like my own clothing store, a game, a usefull gamefication app, etc. 
           </>
         ],
-        images: [{
-          src: "/images/projects/content-creator/cover-01.png",
-          alt: "Print of a reels with a lot of views and likes",
-          width: 10,
-          height: 9,
-          },
+        images: [
           {
             src: "/images/projects/content-creator/cover-02.png",
             alt: "Print of a youtube videos with a lot of views",
             width: 10,
             height: 9,
           },
-          {
-            src: "/images/projects/content-creator/cover-03.png",
-            alt: "Print of a youtube videos with a lot of views and likes",
-            width: 10,
-            height: 9,
-          }
         ],
       },
       {
@@ -295,7 +284,20 @@ const about = {
           <> There were more than 10 vertical videos (TikTok, Instagram, etc.) that got over 150,000 views in total.</>
 
         ],
-        images: [],
+        images: [
+          {
+          src: "/images/projects/content-creator/cover-01.png",
+          alt: "Print of a reels with a lot of views and likes",
+          width: 10,
+          height: 9,
+          },
+          {
+            src: "/images/projects/content-creator/cover-03.png",
+            alt: "Print of a youtube videos with a lot of views and likes",
+            width: 10,
+            height: 9,
+          }
+        ],
       },
       {
         company: "Beyond the Summit Brasil (BetWay)",
@@ -319,6 +321,12 @@ const about = {
         timeframe: "08/2017 - 12/2017",
         role: "Web Writer",
         achievements: [
+          <>
+          First I started as a student at Alura (2016), where I took several courses in Design, Programming, and Content Creation. 
+          <br/>Then I turned into a Volunteer Moderator in the Alura community, where I helped students with their doubts and questions. My reply to the students doubts was marked as the best answer in +100 topics(questions).
+          
+          <br/> After that, I was invited to be do a Intership as Web Writer for the Alura blog.
+          </>,
           <>
           Created and developed posts for Alura's blog focused on Design and Programming.
           </>,
@@ -350,7 +358,44 @@ const about = {
 
 
         ],
-        images: [],
+        images: [
+          {
+            src: "/images/projects/alura/alura-profile.png",
+            alt: "my profile image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/alura/alura-cover1.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/alura/alura-cover2.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/alura/alura-cover3.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/alura/alura-cover4.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/alura/alura-cover5.png",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
