@@ -336,15 +336,15 @@ const about = {
           </>,
           <>
           Post's links:
-          <link className="text-blue-500 hover:underline" href="https://www.alura.com.br/artigos/aplicando-mascaras-na-sua-imagem-com-o-photoshop" target="_blank" rel="noopener noreferrer"> How to apply mask in your photoshop image </link>
+          <a className="text-blue-500 hover:underline" href="https://www.alura.com.br/artigos/aplicando-mascaras-na-sua-imagem-com-o-photoshop" target="_blank" rel="noopener noreferrer"> How to apply mask in your photoshop image </a>
           <br />
-          <link className="text-blue-500 hover:underline" href="https://www.alura.com.br/artigos/fazendo-recortes-na-imagem-com-crop-tool-no-photoshop" target="_blank" rel="noopener noreferrer"> How to use Crop Tool in photoshop </link>
+          <a className="text-blue-500 hover:underline" href="https://www.alura.com.br/artigos/fazendo-recortes-na-imagem-com-crop-tool-no-photoshop" target="_blank" rel="noopener noreferrer"> How to use Crop Tool in photoshop </a>
           <br />
-          <link className="text-blue-500 hover:underline" href="https://www.alura.com.br/artigos/o-que-sao-imagens-vetoriais-e-por-que-utiliza-las" target="_blank" rel="noopener noreferrer"> What is a Vector Image </link>
+          <a className="text-blue-500 hover:underline" href="https://www.alura.com.br/artigos/o-que-sao-imagens-vetoriais-e-por-que-utiliza-las" target="_blank" rel="noopener noreferrer"> What is a Vector Image </a>
           <br />
-          <link className="text-blue-500 hover:underline" href="https://www.alura.com.br/artigos/melhorando-capa-de-um-canal-no-youtube" target="_blank" rel="noopener noreferrer"> How to make a better Youtube Cover art </link>
+          <a className="text-blue-500 hover:underline" href="https://www.alura.com.br/artigos/melhorando-capa-de-um-canal-no-youtube" target="_blank" rel="noopener noreferrer"> How to make a better Youtube Cover art </a>
           <br />
-          <link className="text-blue-500 hover:underline" href="https://www.alura.com.br/artigos/utilizando-decupagem-nos-seus-projetos-de-video" target="_blank" rel="noopener noreferrer"> How to decupate a video </link>
+          <a className="text-blue-500 hover:underline" href="https://www.alura.com.br/artigos/utilizando-decupagem-nos-seus-projetos-de-video" target="_blank" rel="noopener noreferrer"> How to decupate a video </a>
           </>
 
 
