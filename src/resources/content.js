@@ -87,7 +87,12 @@ const social = [
   {
     name: "Spotify",
     icon: "spotify",
-    link: "https://open.spotify.com/user/225fxzliesyi4gy5gzsgmnoqa?si=f9c4965329c84127",
+    link: "https://open.spotify.com/user/225fxzliesyi4gy5gzsgmnoqa?si=bd789c2951ad4c07",
+  },
+  {
+    name: "Podcast Mundo 42",
+    icon: "spotify",
+    link: "https://open.spotify.com/show/6IxjbVdOLelYroh1Wx16xf?si=40803a496c344d39",
   },
   {
     name: "Tiktok",
