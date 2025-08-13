@@ -397,6 +397,26 @@ const about = {
           },
         ],
       },
+      {
+        company: "Credit Cash Assessoria Financeira",
+        timeframe: "01/2015 - 08/2015",
+        role: "Telemarketer - overdue bills collection",
+        achievements: [
+          <>
+          Receive and make calls using CallFlex
+          </>,
+          <>
+          Update/complete/change customer records
+          </>,
+          <>
+          Collect overdue bills
+          </>,
+          <>
+          Create spreadsheets for self-management of goals
+          </>
+        ],
+        images: [],
+      },
     ],
   },
   studies: {
