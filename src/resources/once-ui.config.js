@@ -130,7 +130,7 @@ const effects = {
 };
 
 const mailchimp = {
-  action: 'https://app.us12.list-manage.com/subscribe/post?u=7ebb7d1be4ba8acd030481d9e&amp;id=5e5071be4b&amp;f_id=009d08e8f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"',
+  action: 'https://app.us12.list-manage.com/subscribe/post?u=7ebb7d1be4ba8acd030481d9e&amp;id=5e5071be4b&amp;f_id=009d08e8f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate=""https://app.us12.list-manage.com/subscribe/post?u=7ebb7d1be4ba8acd030481d9e&amp;id=5e5071be4b&amp;f_id=009d08e8f0" method="post"',
   effects: {
     mask: {
       cursor: true,
