@@ -20,7 +20,9 @@ const newsletter = {
     <>
       I occasionally write about livestreaming, design, technology, and share thoughts on the intersection of
       creativity and code.
+      <>This feature isnt working right now :( </>
     </>
+    
   ),
 };
 
