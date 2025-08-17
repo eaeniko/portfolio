@@ -14,7 +14,7 @@ const person = {
 };
 
 const newsletter = {
-  display: false,
+  display: True,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
