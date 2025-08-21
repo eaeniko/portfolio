@@ -1,6 +1,7 @@
 import { Column, Meta, Schema } from "@once-ui-system/core";
 import { baseURL, about, person, live } from "@/resources";
 import InLiveAdBelow from "@/components/mdx";
+import TwitchEmbedClient from "@/components/TwitchEmbedClient";
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -29,32 +30,10 @@ export default function Live() {
           image: `${baseURL}${person.avatar}`,
         }}
       />
-      
       <div className="live-wrapper">
         <div className="live-container">
           <div className="live-video">
-            <iframe
-              src={
-                "https://player.twitch.tv/?channel=eaeniko" +
-                "&parent=localhost" +
-                "&parent=eaeniko.vercel.app" +
-                "&parent=www.eaeniko.vercel.app"
-              }
-              title="Twitch player"
-              allowFullScreen
-            />
-          </div>
-          <div className="live-chat">
-            <iframe
-              id="chat_embed"
-              src={
-                "https://www.twitch.tv/embed/eaeniko/chat" +
-                "?parent=localhost" +
-                "&parent=eaeniko.vercel.app" +
-                "&parent=www.eaeniko.vercel.app"
-              }
-              title="Twitch chat"
-            />
+            <TwitchEmbedClient channel="eaeniko" layout="video-with-chat" />
           </div>
         </div>
       </div>
