@@ -1,7 +1,8 @@
-import { Column, Heading, Text } from "@once-ui-system/core";
+import { Column, Heading, LayoutProvider, Text } from "@once-ui-system/core";
 
 export default function NotFound() {
   return (
+    <LayoutProvider>
     <Column as="section" fill center paddingBottom="160">
       <Text marginBottom="s" variant="display-strong-xl">
         404
@@ -11,5 +12,6 @@ export default function NotFound() {
       </Heading>
       <Text onBackground="neutral-weak">The page you are looking for does not exist.</Text>
     </Column>
+    </LayoutProvider>
   );
 }
