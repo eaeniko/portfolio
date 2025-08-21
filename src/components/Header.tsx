@@ -140,9 +140,9 @@ export const Header = () => {
                   />
                   <ToggleButton
                     className="s-flex-show"
-                    prefixIcon="live"
-                    href="/live"
-                    selected={pathname.startsWith("/live")}
+                    prefixIcon="bio"
+                    href="/bio"
+                    selected={pathname.startsWith("/bio")}
                   />
                 </>
               )}
