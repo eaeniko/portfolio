@@ -39,7 +39,7 @@ const learning = {
   description: `Personal learning by ${person.name}`,
 }
 
-const socials = [
+const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
@@ -614,4 +614,4 @@ const gallery = {
   
 };
 
-export { live, learning, person, bio, socials, newsletter, home, about, blog, work, gallery };
+export { live, learning, person, bio, social, newsletter, home, about, blog, work, gallery };

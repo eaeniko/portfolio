@@ -13,7 +13,7 @@ import {
   OgCard,
   SmartLink,
 } from "@once-ui-system/core";
-import { bio, socials } from "@/resources";
+import { bio, social } from "@/resources";
 
 interface LinkItem {
   title?: string;
@@ -49,9 +49,9 @@ export default function Home() {
               {bio.bio}
             </Text>
           )}
-          {socials?.length > 0 && (
+          {social?.length > 0 && (
             <Row gap="16" paddingX="l" paddingTop="24" horizontal="center" fillWidth wrap>
-              {socials.map((item: any, index: any) => (
+              {social.map((item: any, index: any) => (
                 <IconButton
                   key={index}
                   href={item.link}

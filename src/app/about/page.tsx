@@ -13,7 +13,7 @@ import {
   Schema,
   SmartLink
 } from "@once-ui-system/core";
-import { baseURL, about, person, socials } from "@/resources";
+import { baseURL, about, person, social } from "@/resources";
 import TableOfContents from "@/components/about/TableOfContents";
 import styles from "@/components/about/about.module.scss";
 import React from "react";
@@ -149,9 +149,9 @@ export default function About() {
             >
               {person.role}
             </Text>
-            {socials.length > 0 && (
+            {social.length > 0 && (
               <Flex className={styles.blockAlign} paddingTop="20" paddingBottom="8" gap="8" wrap horizontal="center" fitWidth data-border="rounded">
-                {socials.map(
+                {social.map(
                   (item) =>
                     item.link && (
                         <React.Fragment key={item.name}>
