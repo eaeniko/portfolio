@@ -1,10 +1,10 @@
 // import a pre-defined template for config and content options
 export {
   person,
-  social,
+  socials,
   newsletter,
   live,
-  content,
+  bio,
   learning,
   home,
   about,

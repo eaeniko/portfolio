@@ -8,7 +8,7 @@ const routes = {
   "/about": true,
   "/live": true,
   "/work": true,
-  "/social": true,
+  "/bio": true,
   "/blog": true,
   "/learning": true,
   "/gallery": false,
