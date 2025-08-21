@@ -44,9 +44,9 @@ export default function Home() {
               {content.name}
             </Heading>
           )}
-          {content.content && (
+          {content.bio && (
             <Text variant="body-default-l" onBackground="neutral-weak">
-              {content.content}
+              {content.bio}
             </Text>
           )}
           {social?.length > 0 && (
@@ -92,11 +92,11 @@ export default function Home() {
           <Text onBackground="neutral-weak">
             {new Date().getFullYear() + " "}
             {/* Usage of this template requires attribution. Please don't remove the link to Once UI. */}
-            / Build your content with{" "}
+            / Olá{" "}
             <SmartLink
-              href="https://once-ui.com/products/magic-content"
+              href="https://eaeniko.vercel.app"
             >
-              Once UI
+              Nikolai Cinotti
             </SmartLink>
           </Text>
         </Row>

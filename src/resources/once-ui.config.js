@@ -174,6 +174,7 @@ const mailchimp = {
   }
 };
 
+
 // default schema data
 const schema = {
   logo: "",

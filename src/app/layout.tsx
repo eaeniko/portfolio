@@ -106,7 +106,8 @@ export default async function RootLayout({
         />
       </head>
       <LayoutProvider>
-        <Column as="body" background="page" fillWidth style={{ minHeight: "100vh" }} margin="0" padding="0" horizontal="center">
+        <Providers>
+          <Column as="body" background="page" fillWidth style={{ minHeight: "100vh" }} margin="0" padding="0" horizontal="center">
           <Background
             position="fixed"
             mask={{
@@ -165,9 +166,10 @@ export default async function RootLayout({
           </Flex>
           <Footer />
         </Column>
+        </Providers>
         <SpeedInsights />
         <Analytics />
-        </LayoutProvider>
+      </LayoutProvider>
     </Flex>
   );
 }
