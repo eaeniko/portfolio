@@ -1,5 +1,5 @@
 import { Flex, IconButton, SmartLink, Text } from "@once-ui-system/core";
-import { person, social } from "@/resources";
+import { person, socials } from "@/resources";
 import styles from "./Footer.module.scss";
 
 export const Footer = () => {
@@ -29,7 +29,7 @@ export const Footer = () => {
           
         </Text>
         <Flex gap="16">
-          {social.map(
+          {socials.map(
             (item) =>
               item.link && (
                 <IconButton
