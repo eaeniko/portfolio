@@ -46,7 +46,7 @@ import {
 import { RiLiveLine } from "react-icons/ri";
 
 export const iconLibrary: Record<string, IconType> = {
-  addressBook: FaAddressBook,
+  bio: FaAddressBook,
   arrowUpRight: HiArrowUpRight,
   code: FaLaptopCode,
   live: RiLiveLine,
