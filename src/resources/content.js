@@ -38,34 +38,8 @@ const learning = {
   title: `A little bit of what I have learned`,
   description: `Personal learning by ${person.name}`,
 }
-const content = {
-  name: "Nikolai Cinotti", // optional
-  avatar: "/images/avatar.jpg", // optional
-  cover: "/images/cover.jpg", // optional
-  bio: "Design Engineer + Creative", // optional
-  links: [ // optional array
-    // title, description and image are generated based on the link (if available) and not provided explicitly
-    {
-      title: "Test", // optional
-      description: "Fully customizable design system for Next.js and Figma.", // optional
-      url: "https://eaeniko.vercel.app", // required if link object exists
-      favicon: true
-    },
-    {
-      title: "Test Portfolio", // optional
-      description: "The most awesome portfolio boilerplate built with Once UI.", // optional
-      url: "https://eaeniko.vercel.app", // required if link object exists
-      favicon: false
-    },
-    {
-      title: "Design Club", // optional
-      url: "https://eaeniko.vercel.app", // required if link object exists
-      favicon: false
-    },
-  ],
-};
 
-const social = [
+const socials = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
@@ -559,6 +533,33 @@ const work = {
   // All projects will be listed on the /home and /work routes
 };
 
+const socialMedia = {
+  name: "Nikolai Cinotti", // optional
+  avatar: "/images/avatar.jpg", // optional
+  cover: "/images/cover.jpg", // optional
+  bio: "Design Engineer + Creative", // optional
+  links: [ // optional array
+    // title, description and image are generated based on the link (if available) and not provided explicitly
+    {
+      title: "Test", // optional
+      description: "Fully customizable design system for Next.js and Figma.", // optional
+      url: "https://eaeniko.vercel.app", // required if link object exists
+      favicon: true
+    },
+    {
+      title: "Test Portfolio", // optional
+      description: "The most awesome portfolio boilerplate built with Once UI.", // optional
+      url: "https://eaeniko.vercel.app", // required if link object exists
+      favicon: false
+    },
+    {
+      title: "Design Club", // optional
+      url: "https://eaeniko.vercel.app", // required if link object exists
+      favicon: false
+    },
+  ],
+};
+
 const gallery = {
   path: "/gallery",
   label: "Gallery",
@@ -609,6 +610,7 @@ const gallery = {
     },
 
   ],
+  
 };
 
-export { live, learning, person, content, social, newsletter, home, about, blog, work, gallery };
+export { live, learning, person, socialMedia, socials, newsletter, home, about, blog, work, gallery };

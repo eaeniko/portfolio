@@ -129,6 +129,23 @@ export const Header = () => {
                   />
                 </>
               )}
+              {routes["/social"] && (
+                <>
+                  <ToggleButton
+                    className="s-flex-hide"
+                    prefixIcon="addressBook"
+                    href="/social"
+                    //label={content.label}
+                    selected={pathname.startsWith("/social")}
+                  />
+                  <ToggleButton
+                    className="s-flex-show"
+                    prefixIcon="live"
+                    href="/live"
+                    selected={pathname.startsWith("/live")}
+                  />
+                </>
+              )}
               {routes["/learning"] && (
                 <>
                   <ToggleButton
