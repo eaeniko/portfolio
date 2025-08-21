@@ -50,18 +50,18 @@ const content = {
     {
       title: "Test", // optional
       description: "Fully customizable design system for Next.js and Figma.", // optional
-      url: "https://eaeniko.vercel.app", // required if link object exists
+      url: "https://once-ui.com", // required if link object exists
       favicon: true
     },
     {
       title: "Test Portfolio", // optional
       description: "The most awesome portfolio boilerplate built with Once UI.", // optional
-      url: "https://eaeniko.vercel.app", // required if link object exists
+      url: "https://magic-portfolio.com", // required if link object exists
       favicon: true
     },
     {
       title: "Design Club", // optional
-      url: "https://eaeniko.vercel.app", // required if link object exists
+      url: "https://x.com/eaeniko", // required if link object exists
       favicon: true
     },
   ],
