@@ -68,9 +68,9 @@ export default function Home() {
       </Column>
       
       <Column maxWidth="s" gap="24">
-        {social.links?.length > 0 && (
+        {content.links?.length > 0 && (
           <>
-            {(social.links as LinkItem[]).map((link, index) => (
+            {(content.links as LinkItem[]).map((link, index) => (
               <OgCard
                 background="transparent"
                 border="transparent"
