@@ -30,34 +30,33 @@ export default function Live() {
         }}
       />
       
-      <div style={{ display: "flex", gap: "0.5rem", flexWrap: "wrap", marginLeft:"4rem" }}>
-        <iframe
-          src={
-            "https://player.twitch.tv/?channel=eaeniko" +
-            "&parent=localhost" +
-            "&parent=eaeniko.vercel.app" +
-            "&parent=www.eaeniko.vercel.app"
-          }
-          frameBorder="0"
-          allowFullScreen
-          scrolling="no"
-          height="854"
-          width="480"
-        />
-        <iframe
-          id="chat_embed"
-          src={
-            "https://www.twitch.tv/embed/eaeniko/chat" +
-            "?parent=localhost" +
-            "&parent=eaeniko.vercel.app" +
-            "&parent=www.eaeniko.vercel.app"
-          }
-          frameBorder="0"
-          scrolling="no"
-          height="600"
-          width="350">
-
-        </iframe>
+      <div className="live-wrapper">
+        <div className="live-container">
+          <div className="live-video">
+            <iframe
+              src={
+                "https://player.twitch.tv/?channel=eaeniko" +
+                "&parent=localhost" +
+                "&parent=eaeniko.vercel.app" +
+                "&parent=www.eaeniko.vercel.app"
+              }
+              title="Twitch player"
+              allowFullScreen
+            />
+          </div>
+          <div className="live-chat">
+            <iframe
+              id="chat_embed"
+              src={
+                "https://www.twitch.tv/embed/eaeniko/chat" +
+                "?parent=localhost" +
+                "&parent=eaeniko.vercel.app" +
+                "&parent=www.eaeniko.vercel.app"
+              }
+              title="Twitch chat"
+            />
+          </div>
+        </div>
       </div>
       <InLiveAdBelow/>
       

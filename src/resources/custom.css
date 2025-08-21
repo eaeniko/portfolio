@@ -61,3 +61,42 @@
   .s-flex-hide { display: none !important; }
   .s-flex-show { display: flex !important; }
 } */
+
+/* Live player layout: center content, video+chat take ~80% on 1920px, with gutters */
+.live-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.live-container {
+  width: 80%; /* target 80% of viewport width on large screens */
+  max-width: 1500px; /* prevent over-expansion */
+  display: flex;
+  gap: 1rem;
+  align-items: stretch; /* make chat match video height */
+  justify-content: center;
+}
+.live-video {
+  flex: 1 1 0;
+  min-width: 0;
+  aspect-ratio: 16/9;
+}
+.live-chat {
+  width: 360px; /* chat fixed width */
+  flex: 0 0 360px;
+  display: flex;
+}
+
+.live-video iframe,
+.live-chat iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 1024px) {
+  .live-container { width: 95%; flex-direction: column; align-items: center; }
+  .live-chat { width: 100%; flex: none; }
+  .live-video { width: 100%; }
+}
