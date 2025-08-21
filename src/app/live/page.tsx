@@ -41,8 +41,8 @@ export default function Live() {
           frameBorder="0"
           allowFullScreen
           scrolling="no"
-          height="600"
-          width="900"
+          height="854"
+          width="480"
         />
         <iframe
           id="chat_embed"
