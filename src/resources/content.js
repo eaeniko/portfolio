@@ -345,7 +345,7 @@ const about = {
           <> Making changes to layouts and editing.</>,
           <> The caster's job is to keep the audience hooked.</>,
           <> We had over 250 people watching at the same time.</>,
-          <> I&apos;m responsible for the drawings that are shown to viewers.</>,
+          <> Im responsible for the drawings that are shown to viewers.</>,
 
         ],
         images: [],
