@@ -65,7 +65,7 @@ function InLiveAdBelow() {
         data-ad-slot="1152550473"
         data-ad-format="auto"
         data-full-width-responsive="true"></ins>
-    <Script>
+    <Script id="adsbygoogle-window">
         (adsbygoogle = window.adsbygoogle || []).push({});
     </Script>
     </>

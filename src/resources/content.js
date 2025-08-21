@@ -170,7 +170,7 @@ const home = {
   subline: (
     <>
     
-      I'm Nikolai, a multi content creator that loves Tech and to
+      I&apos;m Nikolai, a multi content creator that loves Tech and to
       do everything on stream. I try to craft innovative ideias
       <br />with intuitive user experiences. After hours, I take care of my cats.
     </>
@@ -345,7 +345,7 @@ const about = {
           <> Making changes to layouts and editing.</>,
           <> The caster's job is to keep the audience hooked.</>,
           <> We had over 250 people watching at the same time.</>,
-          <> I'm responsible for the drawings that are shown to viewers.</>,
+          <> I&apos;m responsible for the drawings that are shown to viewers.</>,
 
         ],
         images: [],
