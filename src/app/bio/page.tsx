@@ -13,7 +13,7 @@ import {
   OgCard,
   SmartLink,
 } from "@once-ui-system/core";
-import { bio, social } from "@/resources";
+import { content, social } from "@/resources";
 
 interface LinkItem {
   title?: string;
@@ -29,24 +29,24 @@ export default function Home() {
   return (
     <Column fillWidth horizontal="center" padding="16">
       <Column maxWidth="m" aspectRatio="2/1" marginBottom="40" paddingY="24">
-        {bio.cover && (
+        {content.cover && (
           <Row fill position="absolute" left="0" top="0" radius="xl" overflow="hidden" border="neutral-alpha-weak">
-            <Media sizes="(max-width: 768px) 100vw, 960px" priority fill src={bio.cover} alt={bio.name}/>
+            <Media sizes="(max-width: 768px) 100vw, 960px" priority fill src={content.cover} alt={content.name}/>
             <Fade fill position="absolute" to="top" bottom="0" left="0" pattern={{ display: true, size: "2" }}/>
           </Row>
         )}
         <Column fill center padding="l" gap="4" align="center">
-          {bio.avatar && (
-            <Avatar src={bio.avatar} size="xl" />
+          {content.avatar && (
+            <Avatar src={content.avatar} size="xl" />
           )}
-          {bio.name && (
-            <Heading variant="heading-strong-xl" marginTop={bio.avatar ? "24" : undefined}>
-              {bio.name}
+          {content.name && (
+            <Heading variant="heading-strong-xl" marginTop={content.avatar ? "24" : undefined}>
+              {content.name}
             </Heading>
           )}
-          {bio.bio && (
+          {content.content && (
             <Text variant="body-default-l" onBackground="neutral-weak">
-              {bio.bio}
+              {content.content}
             </Text>
           )}
           {social?.length > 0 && (
@@ -68,9 +68,9 @@ export default function Home() {
       </Column>
       
       <Column maxWidth="s" gap="24">
-        {bio.links?.length > 0 && (
+        {social.links?.length > 0 && (
           <>
-            {(bio.links as LinkItem[]).map((link, index) => (
+            {(social.links as LinkItem[]).map((link, index) => (
               <OgCard
                 background="transparent"
                 border="transparent"
@@ -92,9 +92,9 @@ export default function Home() {
           <Text onBackground="neutral-weak">
             {new Date().getFullYear() + " "}
             {/* Usage of this template requires attribution. Please don't remove the link to Once UI. */}
-            / Build your bio with{" "}
+            / Build your content with{" "}
             <SmartLink
-              href="https://once-ui.com/products/magic-bio"
+              href="https://once-ui.com/products/magic-content"
             >
               Once UI
             </SmartLink>

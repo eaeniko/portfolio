@@ -533,7 +533,7 @@ const work = {
   // All projects will be listed on the /home and /work routes
 };
 
-const bio = {
+const content = {
   name: "Nikolai Cinotti", // optional
   avatar: "/images/avatar.jpg", // optional
   label: "Bio",
@@ -614,4 +614,4 @@ const gallery = {
   
 };
 
-export { live, learning, person, bio, social, newsletter, home, about, blog, work, gallery };
+export { live, learning, person, content, social, newsletter, home, about, blog, work, gallery };
