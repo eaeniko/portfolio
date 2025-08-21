@@ -48,19 +48,14 @@ const content = {
   links: [ // optional array
     // title, description and image are generated based on the link (if available) and not provided explicitly
     {
-      title: "Test", // optional
-      description: "Fully customizable design system for Next.js and Figma.", // optional
-      url: "https://once-ui.com", // required if link object exists
+      title: "Mundo 42 ", // optional
+      description: "Meu podcast sobre livros, animes e series..", // optional
+      url: "https://open.spotify.com/show/6IxjbVdOLelYroh1Wx16xf?si=40803a496c344d39", // required if link object exists
       favicon: true
     },
+
     {
-      title: "Test Portfolio", // optional
-      description: "The most awesome portfolio boilerplate built with Once UI.", // optional
-      url: "https://magic-portfolio.com", // required if link object exists
-      favicon: true
-    },
-    {
-      title: "Design Club", // optional
+      title: "Twitter pra falar asneira", // optional
       url: "https://x.com/eaeniko", // required if link object exists
       favicon: true
     },
