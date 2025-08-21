@@ -8,7 +8,7 @@ import Script from "next/script";
 import classNames from "classnames";
 
 import { Background, Column, Flex, Meta, opacity, SpacingToken } from "@once-ui-system/core";
-import { Footer, Header, RouteGuard, Providers } from '@/components';
+import { Footer, Header, RouteGuard, LayoutProvider } from '@/components';
 import { baseURL, effects, fonts, style, dataStyle, home } from '@/resources';
 
 export async function generateMetadata() {
@@ -105,7 +105,7 @@ export default async function RootLayout({
           }}
         />
       </head>
-      <Providers>
+      <LayoutProvider>
         <Column as="body" background="page" fillWidth style={{ minHeight: "100vh" }} margin="0" padding="0" horizontal="center">
           <Background
             position="fixed"
@@ -167,7 +167,7 @@ export default async function RootLayout({
         </Column>
         <SpeedInsights />
         <Analytics />
-      </Providers>
+      </LayoutProvider>
     </Flex>
   );
 }
