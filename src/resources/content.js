@@ -536,6 +536,7 @@ const work = {
 const bio = {
   name: "Nikolai Cinotti", // optional
   avatar: "/images/avatar.jpg", // optional
+  label: "Bio",
   cover: "/images/cover.jpg", // optional
   bio: "Design Engineer + Creative", // optional
   links: [ // optional array
