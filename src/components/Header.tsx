@@ -135,7 +135,7 @@ export const Header = () => {
                     className="s-flex-hide"
                     prefixIcon="addressBook"
                     href="/bio"
-                    label={bio.label}
+                    //label={bio.label}
                     selected={pathname.startsWith("/bio")}
                   />
                   <ToggleButton
