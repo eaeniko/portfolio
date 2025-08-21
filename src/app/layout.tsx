@@ -5,15 +5,11 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 import Script from "next/script";
 
-
 import classNames from "classnames";
 
 import { Background, Column, Flex, Meta, opacity, SpacingToken } from "@once-ui-system/core";
 import { Footer, Header, RouteGuard, Providers } from '@/components';
 import { baseURL, effects, fonts, style, dataStyle, home } from '@/resources';
-
-
-
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -44,11 +40,12 @@ export default async function RootLayout({
       )}
     >
       <head>
-        <meta name="google-adsense-account" content="ca-pub-7328591460493456"></meta>
+        <meta name="google-adsense-account" content="ca-pub-7328591460493456" />
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7328591460493456"
-          crossOrigin="anonymous" strategy='lazyOnload'
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
         />
         <script
           id="theme-init"
@@ -109,7 +106,7 @@ export default async function RootLayout({
         />
       </head>
       <Providers>
-        <Column as="body" background="page" fillWidth style={{minHeight: "100vh"}} margin="0" padding="0" horizontal="center">
+        <Column as="body" background="page" fillWidth style={{ minHeight: "100vh" }} margin="0" padding="0" horizontal="center">
           <Background
             position="fixed"
             mask={{
@@ -151,26 +148,26 @@ export default async function RootLayout({
               color: effects.lines.color,
             }}
           />
-          <Flex fillWidth minHeight="16" s={{hide: true}}/>
-            <Header />
-            <Flex
-              zIndex={0}
-              fillWidth
-              padding="l"
-              horizontal="center"
-              flex={1}
-            >
-              <Flex horizontal="center" fillWidth minHeight="0">
-                <RouteGuard>
-                  {children}
-                </RouteGuard>
-              </Flex>
+          <Flex fillWidth minHeight="16" s={{ hide: true }} />
+          <Header />
+          <Flex
+            zIndex={0}
+            fillWidth
+            padding="l"
+            horizontal="center"
+            flex={1}
+          >
+            <Flex horizontal="center" fillWidth minHeight="0">
+              <RouteGuard>
+                {children}
+              </RouteGuard>
             </Flex>
-            <Footer/>
-          </Column>
-          <SpeedInsights />
-          <Analytics />
-        </Providers>
-      </Flex>
+          </Flex>
+          <Footer />
+        </Column>
+        <SpeedInsights />
+        <Analytics />
+      </Providers>
+    </Flex>
   );
 }
