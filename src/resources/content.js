@@ -44,7 +44,7 @@ const content = {
   avatar: "/images/avatar.jpg", // optional
   label: "Bio",
   cover: "/images/cover.png", // optional
-  bio: "Design Engineer + Creative", // optional
+  bio: "Self-taught knowledge hunger", // optional
   links: [ // optional array
     // title, description and image are generated based on the link (if available) and not provided explicitly
     {

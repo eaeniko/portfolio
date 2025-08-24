@@ -88,10 +88,10 @@ export default function Home() {
             ))}
           </>
         )}
-        <Row fillWidth padding="l" horizontal="center" textVariant="label-default-s">
+        {/* <Row fillWidth padding="l" horizontal="center" textVariant="label-default-s">
           <Text onBackground="neutral-weak">
             {new Date().getFullYear() + " "}
-            {/* Usage of this template requires attribution. Please don't remove the link to Once UI. */}
+            {/* Usage of this template requires attribution. Please don't remove the link to Once UI. 
             / Olá{" "}
             <SmartLink
               href="https://eaeniko.vercel.app"
@@ -99,7 +99,7 @@ export default function Home() {
               Nikolai Cinotti
             </SmartLink>
           </Text>
-        </Row>
+        </Row> */}
       </Column>
     </Column>
   );
