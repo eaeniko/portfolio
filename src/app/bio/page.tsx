@@ -78,7 +78,7 @@ export default function Home() {
                 key={index}
                 url={link.url}
                 href={link.url}
-                direction={link.direction}
+                direction="row"
                 title={link.title}
                 description={link.description}
                 favicon={link.favicon}

@@ -56,7 +56,7 @@ const content = {
 
     {
       title: "Twitter pra falar asneira", // optional
-      image: "images/general/x.png",
+      image: "/images/general/x.png",
       url: "https://x.com/eaeniko", // required if link object exists
       favicon: true
     },
