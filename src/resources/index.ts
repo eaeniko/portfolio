@@ -5,6 +5,7 @@ export {
   newsletter,
   live,
   content,
+  stream,
   learning,
   home,
   about,

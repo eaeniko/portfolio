@@ -32,6 +32,17 @@ const live = {
   title: `${person.name} - Live Stream`,
   description: `Watch what's ${person.name} is doing right now `,
 }
+
+const stream = {
+  path: "/stream",
+  label: "Stream Commands",
+  title: "All about my stream",
+  description: `Check out all the commands you can use in my stream chat!`,
+  // Create new blog posts by adding a new .mdx file to app/blog/posts
+  // All posts will be listed on the /blog route
+};
+
+
 const learning = {
   path: "/learning",
   label: "Learning",
@@ -613,4 +624,4 @@ const gallery = {
   
 };
 
-export { live, learning, person, content, social, newsletter, home, about, blog, work, gallery };
+export { live, learning, person, content, stream, social, newsletter, home, about, blog, work, gallery };
