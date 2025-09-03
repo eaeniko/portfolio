@@ -12,12 +12,19 @@ export default async function sitemap() {
     lastModified: post.metadata.publishedAt,
   }));
 
-  const activeRoutes = Object.keys(routesConfig).filter((route) => routesConfig[route as keyof typeof routesConfig]);
+  const streams = getPosts(["src", "app", "stream", "content"]).map((post) => ({
+    url: `${baseURL}/stream/${post.slug}`,
+    lastModified: post.metadata.publishedAt,
+  }));
+
+  const activeRoutes = Object.keys(routesConfig).filter(
+    (route) => routesConfig[route as keyof typeof routesConfig]
+  );
 
   const routes = activeRoutes.map((route) => ({
     url: `${baseURL}${route !== "/" ? route : ""}`,
     lastModified: new Date().toISOString().split("T")[0],
   }));
 
-  return [...routes, ...blogs, ...works];
+  return [...routes, ...blogs, ...works, ...streams];
 }
