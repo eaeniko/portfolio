@@ -1,6 +1,6 @@
 import { getPosts } from "@/utils/utils";
 import { Column } from "@once-ui-system/core";
-import { ProjectCard } from "@/components";
+import { ProjectCardStream } from "@/components/ProjectCardStream";
 
 interface ProjectsProps {
   range?: [number] | [number, number];
@@ -23,7 +23,7 @@ export function StreamProjects({ range }: ProjectsProps) {
   return (
     <Column fillWidth gap="xl" marginBottom="40" paddingX="l">
       {displayedProjects.map((post, index) => (
-        <ProjectCard
+        <ProjectCardStream
           priority={index < 2}
           key={post.slug}
           href={`stream/${post.slug}`}
