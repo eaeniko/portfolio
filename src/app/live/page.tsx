@@ -16,7 +16,10 @@ export async function generateMetadata() {
 export default function Live() {
   return (
     <Column fillWidth gap="xl" marginBottom="1" paddingX="xl" marginLeft="m">
-      <h1>{live.label}</h1>      
+      <h1>{live.label}</h1>     
+      <a href="https://eaeniko.vercel.app/stream/" target="_blank" rel="noopener noreferrer">
+        Veja mais sobre as lives (comandos, conteudos etc)
+      </a> 
       <Schema
         as="webPage"
         baseURL={baseURL}
@@ -37,6 +40,7 @@ export default function Live() {
           </div>
         </div>
       </div>
+
       <InLiveAdBelow/>
       
     </Column>
