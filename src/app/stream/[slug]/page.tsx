@@ -26,7 +26,6 @@ export async function generateMetadata({
 
   const posts = getPosts(["src", "app", "stream", "content"])
   let post = posts.find((post) => post.slug === slugPath);
-
   if (!post) return {};
 
   return Meta.generate({
