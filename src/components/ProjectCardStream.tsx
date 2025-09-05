@@ -78,7 +78,7 @@ export const ProjectCardStream: React.FC<ProjectCardStreamProps> = ({
                   style={{ margin: "0", width: "fit-content" }}
                   href={link}
                 >
-                  <Text variant="body-default-s">Test now</Text>
+                  <Text variant="body-default-s">Chat now</Text>
                 </SmartLink>
               )}
             </Flex>
