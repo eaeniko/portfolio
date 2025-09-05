@@ -1,6 +1,7 @@
 import { Column, Heading, Meta, Schema } from "@once-ui-system/core";
 import { baseURL, about, person, stream } from "@/resources";
 import { StreamProjects } from "@/components/stream/StreamProjects";
+import InLiveAdBelow from "@/components/mdx";
 
 export async function generateMetadata() {
   return Meta.generate({
@@ -32,6 +33,7 @@ export default function streamProjects() {
         {stream.title}
       </Heading>
       <StreamProjects />
+      <InLiveAdBelow/>
     </Column>
   );
 }
