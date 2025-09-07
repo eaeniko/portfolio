@@ -64,6 +64,14 @@ const content = {
       url: "https://open.spotify.com/show/6IxjbVdOLelYroh1Wx16xf?si=40803a496c344d39", // required if link object exists
       favicon: true
     },
+    {
+      title: "NoPing", // optional
+      description: "Melhore sua conexao e reduza o ping em jogos online.", // optional
+      image: "/images/general/x.png",
+      favicon: "/images/general/x.png",
+      url: "https://nopi.ng/EfafIUitPx", // required if link object exists
+      favicon: true
+    },
 
     {
       title: "Twitter pra falar asneira", // optional
