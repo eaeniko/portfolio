@@ -4,7 +4,7 @@ export {
   social,
   newsletter,
   live,
-  content,
+  bio,
   stream,
   learning,
   home,

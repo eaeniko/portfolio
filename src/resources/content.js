@@ -50,7 +50,7 @@ const learning = {
   description: `Personal learning by ${person.name}`,
 }
 
-const content = {
+const bio = {
   name: "Nikolai Cinotti", // optional
   avatar: "/images/avatar.jpg", // optional
   label: "Bio",
@@ -58,38 +58,32 @@ const content = {
   bio: "Self-taught knowledge hunger", // optional
   links: [ // optional array
     // title, description and image are generated based on the link (if available) and not provided explicitly
+
     {
-      title: "Mundo 42 ", // optional
-      description: "Meu podcast sobre livros, animes e series..", // optional
-      url: "https://open.spotify.com/show/6IxjbVdOLelYroh1Wx16xf?si=40803a496c344d39", // required if link object exists
-      favicon: true
-    },
-    {
-      title: "NoPing", // optional
-      description: "Melhore sua conexao e reduza o ping em jogos online.", // optional
-      image: "/images/general/x.png",
+      title: "NoPing - 3 days free", // optional
+      description: "For gamers that need low pings in your online games", // optional\
       favicon: "/images/general/x.png",
+      image: "/images/cover.png",
       url: "https://nopi.ng/EfafIUitPx", // required if link object exists
       favicon: true
     },
     {
-      title: "Twitter pra falar asneira", // optional
+      title: "Mundo 42 ", // optional
+      description: "Meu podcast sobre livros, animes e series..", // optional\
       image: "/images/general/x.png",
-      favicon: "/images/general/x.png",
-      url: "https://x.com/eaeniko", // required if link object exists
+      url: "https://open.spotify.com/show/6IxjbVdOLelYroh1Wx16xf?si=40803a496c344d39", // required if link object exists
       favicon: true
     },
     {
-      title: "Twitter pra falar asneira", // optional
-      image: "/images/general/x.png",
+      title: "Tiktok", // optional
+      description: "Funny shorts videos I create and best livestream moments.",
       favicon: "/images/general/x.png",
-      url: "https://x.com/eaeniko", // required if link object exists
+      url: "https://tiktok.com/@eaeniko", // required if link object exists
       favicon: true
     },
     {
-      title: "Twitter pra falar asneira", // optional
-      image: "/images/general/x.png",
-      favicon: "/images/general/x.png",
+      title: "X", // optional
+      favicon: "/images/cover.png",
       url: "https://x.com/eaeniko", // required if link object exists
       favicon: true
     },
@@ -645,4 +639,4 @@ const gallery = {
   
 };
 
-export { live, learning, person, content, stream, social, newsletter, home, about, blog, work, gallery };
+export { live, learning, person, bio, stream, social, newsletter, home, about, blog, work, gallery };
