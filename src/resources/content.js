@@ -62,7 +62,7 @@ const content = {
       title: "Mundo 42 ", // optional
       description: "Meu podcast sobre livros, animes e series..", // optional
       url: "https://open.spotify.com/show/6IxjbVdOLelYroh1Wx16xf?si=40803a496c344d39", // required if link object exists
-      favicon: false
+      favicon: true
     },
     {
       title: "NoPing", // optional
@@ -70,28 +70,28 @@ const content = {
       image: "/images/general/x.png",
       favicon: "/images/general/x.png",
       url: "https://nopi.ng/EfafIUitPx", // required if link object exists
-      favicon: false
+      favicon: true
     },
     {
       title: "Twitter pra falar asneira", // optional
       image: "/images/general/x.png",
       favicon: "/images/general/x.png",
       url: "https://x.com/eaeniko", // required if link object exists
-      favicon: false
+      favicon: true
     },
     {
       title: "Twitter pra falar asneira", // optional
       image: "/images/general/x.png",
       favicon: "/images/general/x.png",
       url: "https://x.com/eaeniko", // required if link object exists
-      favicon: false
+      favicon: true
     },
     {
       title: "Twitter pra falar asneira", // optional
       image: "/images/general/x.png",
       favicon: "/images/general/x.png",
       url: "https://x.com/eaeniko", // required if link object exists
-      favicon: false
+      favicon: true
     },
   ],
 };
