@@ -72,7 +72,20 @@ const content = {
       url: "https://nopi.ng/EfafIUitPx", // required if link object exists
       favicon: false
     },
-
+    {
+      title: "Twitter pra falar asneira", // optional
+      image: "/images/general/x.png",
+      favicon: "/images/general/x.png",
+      url: "https://x.com/eaeniko", // required if link object exists
+      favicon: false
+    },
+    {
+      title: "Twitter pra falar asneira", // optional
+      image: "/images/general/x.png",
+      favicon: "/images/general/x.png",
+      url: "https://x.com/eaeniko", // required if link object exists
+      favicon: false
+    },
     {
       title: "Twitter pra falar asneira", // optional
       image: "/images/general/x.png",
