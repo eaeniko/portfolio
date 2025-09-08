@@ -67,7 +67,7 @@ const bio = {
     {
       title: "NoPing - 3 days free", // optional
       description: "For gamers that need low pings in your online games", // optional\
-      media: "/images/cover.png",
+      media: "/images/noping.png",
       url: "https://nopi.ng/EfafIUitPx", // required if link object exists
       favicon: true
     },
