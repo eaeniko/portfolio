@@ -68,7 +68,7 @@ const bio = {
       title: "NoPing - 3 days free", // optional
       description: "For gamers that need low pings in your online games", // optional\
       media: "/images/noping.png",
-      url: "https://noping.com/trial?npref=EfafIUitPx&utm_source=Affiliate&utm_medium=EfafIUitPx&utm_campaign=EfafIUitPx&chk=gogen&clickId=dac6119d-642a-44d3-b818-f7092eb69bc2", // required if link object exists
+      url: "https://nopi.ng/EfafIUitPx", // required if link object exists
       favicon: true
     },
     {
