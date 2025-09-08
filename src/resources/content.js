@@ -57,38 +57,41 @@ const bio = {
   cover: "/images/cover.png", // optional
   bio: "Self-taught knowledge hunger", // optional
   links: [ // optional array
-    // title, description and image are generated based on the link (if available) and not provided explicitly
-
+    //title, description and image are generated based on the link (if available) and not provided explicitly
+    {
+      title: "Stream World Record", // optional
+      description: "+600h of livestream in a single month in 2021. I know nowdays everyone do subathons, but not a hardcore one like I did in those days.", // optional\
+      url: "https://maisesports.com.br/nikolai-streamer-brasileiro-quebra-recorde-de-horas-streamadas-unico-mes/", // required if link object exists
+      favicon: true
+    },
     {
       title: "NoPing - 3 days free", // optional
       description: "For gamers that need low pings in your online games", // optional\
-      favicon: "/images/general/x.png",
-      image: "/images/cover.png",
+      media: "/images/cover.png",
       url: "https://nopi.ng/EfafIUitPx", // required if link object exists
       favicon: true
     },
     {
       title: "Mundo 42 ", // optional
       description: "Meu podcast sobre livros, animes e series..", // optional\
-      image: "/images/general/x.png",
+      media: "/images/general/mundo-42.png",
       url: "https://open.spotify.com/show/6IxjbVdOLelYroh1Wx16xf?si=40803a496c344d39", // required if link object exists
       favicon: true
     },
     {
       title: "Tiktok", // optional
       description: "Funny shorts videos I create and best livestream moments.",
-      favicon: "/images/general/x.png",
       url: "https://tiktok.com/@eaeniko", // required if link object exists
       favicon: true
     },
     {
-      title: "X", // optional
-      favicon: "/images/cover.png",
+      title: "X or Twitter?", // optional
+      media: "/images/general/x.png",
       url: "https://x.com/eaeniko", // required if link object exists
       favicon: true
     },
   ],
-};
+  };
 
 const social = [
   // Links are automatically displayed.
@@ -96,7 +99,7 @@ const social = [
   {
     name: "My Clothing Store",
     icon: "shop",
-    link: "https://www.instagram.com/mundo42_",
+    link: "https://www.mundo42.com.br",
   },
   {
     name: "GitHub",
