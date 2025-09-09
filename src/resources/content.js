@@ -65,6 +65,13 @@ const bio = {
       favicon: true
     },
     {
+      title: "Mundo 42 - Store", // optional
+      description: "My online custom printed t-shirt (help a little enterpenour lol)", // optional\
+      media: "/images/general/noping.png",
+      url: "https://nopi.ng/EfafIUitPx", // required if link object exists
+      favicon: true
+    },
+    {
       title: "NoPing - 3 days free", // optional
       description: "For gamers that need low pings in your online games", // optional\
       media: "/images/general/noping.png",
@@ -73,7 +80,7 @@ const bio = {
     },
     {
       title: "Mundo 42 ", // optional
-      description: "Meu podcast sobre livros, animes e series..", // optional\
+      description: "My podcast about books, animes, series and geek stuff..", // optional\
       media: "/images/general/mundo-42.png",
       url: "https://open.spotify.com/show/6IxjbVdOLelYroh1Wx16xf?si=40803a496c344d39", // required if link object exists
       favicon: true
