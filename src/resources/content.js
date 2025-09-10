@@ -64,7 +64,6 @@ const bio = {
       url: "https://maisesports.com.br/nikolai-streamer-brasileiro-quebra-recorde-de-horas-streamadas-unico-mes/", // required if link object exists
       favicon: true
     },
-    
     {
       title: "Mundo 42 - Store", // optional
       description: "My online custom printed t-shirt (help a little enterpenour lol)", // optional\
