@@ -433,37 +433,7 @@ const about = {
             alt: "my profile image",
             width: 16,
             height: 9,
-          },
-          {
-            src: "/images/projects/alura/alura-cover1.png",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/alura/alura-cover2.png",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/alura/alura-cover3.png",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/alura/alura-cover4.png",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/alura/alura-cover5.png",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          }
         ],
       },
       {
