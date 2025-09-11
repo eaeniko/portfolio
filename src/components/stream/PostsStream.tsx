@@ -4,7 +4,7 @@ import PostStream from './StreamContent';
 
 interface PostsProps {
     range?: [number] | [number, number];
-    columns?: '1' | '2' | '3';
+    columns?: '1' | '2' | '3' | '4';
     thumbnail?: boolean;
     direction?: 'row' | 'column';
 }

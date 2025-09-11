@@ -81,7 +81,7 @@ export default function Home() {
             </Heading>
           </Flex>
           <Flex flex={3} paddingX="20">
-            <PostsStream range={[1, 3]} columns="3" />
+            <PostsStream range={[1, 6]} columns="3" />
           </Flex>
         </Flex>
       )}
