@@ -6,6 +6,8 @@ import { Mailchimp } from "@/components";
 import { Projects } from "@/components/work/Projects";
 import { Posts } from "@/components/blog/Posts";
 import { PostsLearning } from "@/components/learning/PostsLearning";
+import { PostsStream } from "@/components/stream/PostsStream.tsx";
+
 
 export default function Home() {
   return (
@@ -79,7 +81,7 @@ export default function Home() {
             </Heading>
           </Flex>
           <Flex flex={3} paddingX="20">
-            <PostsLearning range={[1, 2]} columns="2" />
+            <PostsStream range={[1, 2]} columns="2" />
           </Flex>
         </Flex>
       )}
