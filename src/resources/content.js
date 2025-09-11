@@ -109,6 +109,41 @@ const social = [
     link: "https://www.mundo42.com.br",
   },
   {
+    name: "LinkedIn",
+    icon: "linkedin",
+    link: "https://www.linkedin.com/in/eaeniko",
+  },
+  {
+    name: "Youtube",
+    icon: "youtube",
+    link: "https://www.youtube.com/eaeniko"
+  },
+  {
+    name: "Twitch",
+    icon: "twitch",
+    link: "https://www.twitch.tv/eaeniko",
+  },
+  {
+    name: "Facebook",
+    icon: "facebook",
+    link: "https://www.facebook.com/eaeniko"
+  },
+  {
+    name: "Email",
+    icon: "email",
+    link: `mailto:${person.email}`,
+  },
+];
+
+const bioLinks = [
+  // Links are automatically displayed.
+  // Import new icons in /once-ui/icons.ts
+  {
+    name: "My Clothing Store",
+    icon: "shop",
+    link: "https://www.mundo42.com.br",
+  },
+  {
     name: "GitHub",
     icon: "github",
     link: "https://www.github.com/eaeniko",
@@ -188,16 +223,6 @@ const social = [
     icon: "email",
     link: `mailto:${person.email}`,
   },
-];
-
-const bioLinks = [
-  // Links are automatically displayed.
-  // Import new icons in /once-ui/icons.ts
-  {
-    name: "My Clothing Store",
-    icon: "shop",
-    link: "https://www.mundo42.com.br",
-  }
 ];
 //<Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/> change to my logo in subline
 const home = {
