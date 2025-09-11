@@ -93,7 +93,7 @@ export default function Home() {
             </Heading>
           </Flex>
           <Flex flex={3} paddingX="20">
-            <PostsLearning range={[1, 2]} columns="2" />
+            <PostsLearning range={[2, 2]} columns="2" />
           </Flex>
         </Flex>
       )}

@@ -1,6 +1,6 @@
 import { Column, Meta, Schema } from "@once-ui-system/core";
 import { baseURL, about, person, live } from "@/resources";
-import InLiveAdBelow from "@/components/mdx";
+// import InLiveAdBelow from "@/components/mdx";
 import TwitchEmbedClient from "@/components/TwitchEmbedClient";
 
 export async function generateMetadata() {
@@ -40,8 +40,6 @@ export default function Live() {
           </div>
         </div>
       </div>
-
-      <InLiveAdBelow/>
       
     </Column>
   );
