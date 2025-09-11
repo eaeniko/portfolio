@@ -5,6 +5,7 @@ export {
   newsletter,
   live,
   bio,
+  bioLinks,
   stream,
   learning,
   home,

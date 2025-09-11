@@ -189,6 +189,16 @@ const social = [
     link: `mailto:${person.email}`,
   },
 ];
+
+const bioLinks = [
+  // Links are automatically displayed.
+  // Import new icons in /once-ui/icons.ts
+  {
+    name: "My Clothing Store",
+    icon: "shop",
+    link: "https://www.mundo42.com.br",
+  }
+];
 //<Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/> change to my logo in subline
 const home = {
   path: "/",
@@ -619,4 +629,4 @@ const gallery = {
   
 };
 
-export { live, learning, person, bio, stream, social, newsletter, home, about, blog, work, gallery };
+export { live, learning, person, bio, bioLinks, stream, social, newsletter, home, about, blog, work, gallery };
