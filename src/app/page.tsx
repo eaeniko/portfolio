@@ -6,7 +6,7 @@ import { Mailchimp } from "@/components";
 import { Projects } from "@/components/work/Projects";
 import { Posts } from "@/components/blog/Posts";
 import { PostsLearning } from "@/components/learning/PostsLearning";
-import { PostsStream } from "@/components/stream/PostsStream.tsx";
+import { PostsStream } from "@/components/stream/PostsStream";
 
 
 export default function Home() {
