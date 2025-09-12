@@ -10,7 +10,7 @@ const person = {
   avatar: "/images/avatar.jpg",
   email: "eaenikolai@gmail.com",
   location: "America/Sao_Paulo", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["Portuguese - Native", "English - B2", "Italian - A1"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["Brazilian Portuguese - Native", "English - B2", "Italian - A1"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -290,6 +290,8 @@ const about = {
           <>
             The new improved design make the user experience journey more intuitive for both users and professionals .
           </>,
+          <>I was responsible for the entire re-design process, from wireframing to prototyping and user testing/user journey.
+          </>
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
@@ -406,7 +408,7 @@ const about = {
       {
         company: "Beyond the Summit Brasil (BetWay)",
         timeframe: "07/2020 - 10/2020",
-        role: "Content Creator",
+        role: "Livestream Technician & Commentator",
         achievements: [
           <>
           At first, I was responsible for the live production of the LCK and LPL League of Legends championship broadcasts on Betway's official channel (which meant rebroadcasting the official live streams). A few weeks later, I also had the chance to work as a commentator for the same channel's championships.
@@ -532,7 +534,7 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/wip.jpg",
+            src: "/learning/first-html-website/imagens/cover1.png",
             alt: "Project image",
             width: 16,
             height: 9,
