@@ -114,19 +114,14 @@ const social = [
     link: "https://www.linkedin.com/in/eaeniko",
   },
   {
+    name: "Instagram",
+    icon: "instagram",
+    link: "https://www.instagram.com/eaeniko"
+  },
+  {
     name: "Youtube",
     icon: "youtube",
     link: "https://www.youtube.com/eaeniko"
-  },
-  {
-    name: "Twitch",
-    icon: "twitch",
-    link: "https://www.twitch.tv/eaeniko",
-  },
-  {
-    name: "Facebook",
-    icon: "facebook",
-    link: "https://www.facebook.com/eaeniko"
   },
   {
     name: "Email",
