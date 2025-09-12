@@ -534,7 +534,7 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/learning/first-html-website/imagens/cover1.png",
+            src: "/learning/first-html-website/cover1.png",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -557,13 +557,7 @@ const about = {
             alt: "Project image",
             width: 16,
             height: 9,
-          },
-          {
-            src: "/images/projects/wip.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          }
         ],
       },
       {
@@ -586,7 +580,7 @@ const about = {
 const blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about things I love to learn...",
+  title: "Writing about things...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
@@ -595,8 +589,8 @@ const blog = {
 const work = {
   path: "/work",
   label: "Work",
-  title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
+  title: `Works – ${person.name}`,
+  description: `More about my work experience ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
