@@ -119,6 +119,11 @@ const social = [
     link: "https://www.instagram.com/eaeniko"
   },
   {
+    name: "Twitch",
+    icon: "twitch",
+    link: "https://www.twitch.tv/eaeniko"
+  },
+  {
     name: "Youtube",
     icon: "youtube",
     link: "https://www.youtube.com/eaeniko"
@@ -179,7 +184,7 @@ const bioLinks = [
     link: "https://discord.gg/n9yEFyMVTz",
   },
   {
-    name: "Spotify",
+    name: "My Spotify",
     icon: "spotify",
     link: "https://open.spotify.com/user/225fxzliesyi4gy5gzsgmnoqa?si=bd789c2951ad4c07",
   },
@@ -193,11 +198,11 @@ const bioLinks = [
     icon: "tiktok",
     link: "https://www.tiktok.com/eaeniko",
   },
-  {
-    name: "Figma",
-    icon: "figma",
-    link: "https://www.figma.com/design/ljyEi1RRCWTXkEwiHub4ik/Aplicativo-para-condominio?t=Lj6UNWx8ePRcX1t5-0",
-  },
+  // {
+  //   name: "Figma",
+  //   icon: "figma",
+  //   link: "https://www.figma.com/design/ljyEi1RRCWTXkEwiHub4ik/Aplicativo-para-condominio?t=Lj6UNWx8ePRcX1t5-0",
+  // },
   {
     name: "Steam",
     icon: "steam",
