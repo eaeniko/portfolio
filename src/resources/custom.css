@@ -1,4 +1,4 @@
-/* :root {
+/* /* :root {
   /*
   /* Example setup for custom colors */
   /* Generate at: https://once-ui.com/customize */
@@ -54,30 +54,30 @@
 
 }*/
 /* Force responsive hide/show for header buttons (minimal, non-invasive) */
-/* .s-flex-hide { display: flex !important; }
+.s-flex-hide { display: flex !important; }
 .s-flex-show { display: none !important; }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .s-flex-hide { display: none !important; }
   .s-flex-show { display: flex !important; }
 } */
 
 /* Live player layout: center content, video+chat take ~80% on 1920px, with gutters */
-.live-wrapper {
+/* .live-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-.live-container {
-  width: 85%; /* target 80% of viewport width on large screens */
-  max-width: 1500px; /* prevent over-expansion */
+} */
+/* .live-container {
+  width: 85%; 
+  max-width: 1500px; 
   display: flex;
   gap: 1rem;
-  align-items: stretch; /* make chat match video height */
+  align-items: stretch; 
   justify-content: center;
-  padding: 1.5rem; /* give breathing room to avoid overlays */
+  padding: 1.5rem; 
   box-sizing: border-box;
-}
+} */
 .live-video {
   flex: 1 1 0;
   min-width: 0;
@@ -86,49 +86,50 @@
   background: transparent;
   border-radius: 8px;
   overflow: visible;
+  height: 10%;
 }
-.live-chat {
-  width: 360px; /* chat fixed width */
+/* .live-chat {
+  width: 360px;
   flex: 0 0 360px;
   display: flex;
-}
+} */
 
-.live-video iframe,
+/* .live-video iframe,
 .live-chat iframe {
   width: 100%;
   height: 100%;
   border: 0;
-}
+} */
 
 /* Responsive: stack on small screens */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .live-container { width: 95%; flex-direction: column; align-items: center; }
   .live-chat { width: 100%; flex: none; }
   .live-video { width: 100%; }
-}
+} */
 
 /* Prevent Twitch chat from being considered "obscured" by other elements */
-.live-wrapper, .live-container, .live-video {
+/* .live-wrapper, .live-container, .live-video {
   position: relative;
   z-index: 2147483647;
   overflow: visible !important;
-}
+} */
 
 /* ensure chat overlay receives pointer events */
-.live-container * {
+/* .live-container * {
   pointer-events: auto !important;
-}
+} */
 
 /* Make the embed placeholder visually lifted so other global elements don't overlap it */
-.live-video > div, /* the embed root inserted by our client */
+/* .live-video > div,
 .live-video > div > div {
   position: relative !important;
   z-index: 2147483647 !important;
   pointer-events: auto !important;
-}
+} */
 
 /* add subtle shadow to ensure it's visually on top */
-.live-video > div {
+/* .live-video > div {
   box-shadow: 0 8px 24px rgba(2,6,23,0.45);
   border-radius: 8px;
-}
+} */

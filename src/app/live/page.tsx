@@ -1,4 +1,4 @@
-import { Column, Meta, Schema } from "@once-ui-system/core";
+import { Heading, Flex, Text, Button, Avatar, RevealFx, Column, Badge, Row, Meta, Schema } from "@once-ui-system/core";
 import { baseURL, about, person, live } from "@/resources";
 // import InLiveAdBelow from "@/components/mdx";
 import TwitchEmbedClient from "@/components/TwitchEmbedClient";
@@ -16,17 +16,20 @@ export async function generateMetadata() {
 export default function Live() {
   return (
     <Column fillWidth paddingY="24" gap="m" align="center">
-      <h1>{live.label}</h1>     
+      <Heading wrap="balance" variant="display-strong-l" >
+        {live.label}
+      </Heading>
+      <Text wrap="balance" onBackground="neutral-weak" variant="heading-default-xl" align="center">
       <a href="https://eaeniko.vercel.app/stream/" target="_blank" rel="noopener noreferrer">
         More about my streams (Content, Commands, Setup etc)
       </a> 
-      <div className="live-wrapper">
-        <div className="live-container">
-          <div className="live-video">
-            <TwitchEmbedClient channel="eaeniko" layout="video-with-chat" />
-          </div>
+      </Text>
+      <Column fillWidth paddingY="24" gap="m" align="center">
+        <div className= "live-video">
+          <TwitchEmbedClient channel="eaeniko" layout="video-with-chat" />
+
         </div>
-      </div>
+      </Column>
       
     </Column>
   );
