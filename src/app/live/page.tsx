@@ -18,7 +18,7 @@ export default function Live() {
     <Column fillWidth paddingY="24" gap="m" align="center">
       <h1>{live.label}</h1>     
       <a href="https://eaeniko.vercel.app/stream/" target="_blank" rel="noopener noreferrer">
-        Veja mais sobre as lives (comandos, conteudos etc)
+        More about my streams (Content, Commands, Setup etc)
       </a> 
       <div className="live-wrapper">
         <div className="live-container">
