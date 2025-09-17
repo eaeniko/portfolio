@@ -54,8 +54,8 @@
 
 }*/
 /* Force responsive hide/show for header buttons (minimal, non-invasive) */
-.s-flex-hide { display: flex !important; }
-.s-flex-show { display: none !important; }
+/* .s-flex-hide { display: flex !important; }
+.s-flex-show { display: none !important; } */
 
 /* @media (max-width: 768px) {
   .s-flex-hide { display: none !important; }
