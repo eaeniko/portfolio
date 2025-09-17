@@ -15,24 +15,11 @@ export async function generateMetadata() {
 
 export default function Live() {
   return (
-    <Column fillWidth gap="xl" marginBottom="1" paddingX="xl" marginLeft="m">
+    <Column fillWidth paddingY="24" gap="m" align="center">
       <h1>{live.label}</h1>     
       <a href="https://eaeniko.vercel.app/stream/" target="_blank" rel="noopener noreferrer">
         Veja mais sobre as lives (comandos, conteudos etc)
       </a> 
-      <Schema
-        as="webPage"
-        baseURL={baseURL}
-        path={live.path}
-        title={live.title}
-        description={live.description}
-        image={`/api/og/generate?title=${encodeURIComponent(live.title)}`}
-        author={{
-          name: person.name,
-          url: `${baseURL}${about.path}`,
-          image: `${baseURL}${person.avatar}`,
-        }}
-      />
       <div className="live-wrapper">
         <div className="live-container">
           <div className="live-video">
