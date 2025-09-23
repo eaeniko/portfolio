@@ -129,6 +129,11 @@ const social = [
     link: "https://www.youtube.com/eaeniko"
   },
   {
+    name: "More Links",
+    icon: "bio",
+    link: "https://www.eaeniko.vercel.app/bio"
+  },
+  {
     name: "Email",
     icon: "email",
     link: `mailto:${person.email}`,
