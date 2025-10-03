@@ -285,8 +285,38 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
+        company: "Wise Systems - Software House",
+        timeframe: "10-2025 - Present | internship",
+        role: "Support Technician",
+        achievements: [
+          <>
+            WIP
+          </>,
+          <>ERP - SIGO
+          </>,
+          
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+        ],
+      },
+      {
+        company: "K2 Web - Software House",
+        timeframe: "08-2025 - 10/2025 | Freelancer",
+        role: "Vibe Coder",
+        achievements: [
+          <>
+            WIP
+          </>,
+          
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+        ],
+      },
+      {
         company: "GID - Gendrify ID",
-        timeframe: "04-2025 - Present (Volunteer Work)",
+        timeframe: "04-2025 - Present | Volunteer Work ",
         role: "Project Manager & Full Stack Designer",
         achievements: [
           <>
