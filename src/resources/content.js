@@ -287,7 +287,7 @@ const about = {
       {
         company: "Wise Systems - Software House",
         timeframe: "10-2025 - Present | internship",
-        role: "Support Technician",
+        role: "Support Technician / IT support",
         achievements: [
           <>
             WIP
