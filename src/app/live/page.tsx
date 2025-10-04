@@ -29,8 +29,6 @@ export default function Live() {
           <TwitchEmbedClient channel="eaeniko" layout="video-with-chat" />
 
         </div>
-
-        <iframe src="https://discord.com/widget?id=397707232512311296&theme=dark" width="350" height="500" allowTransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
       </Column>
       
     </Column>
