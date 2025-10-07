@@ -308,7 +308,7 @@ const about = {
           <>
             Using ChatGPT plus I helped create the fantasy soccer feature to the Mars-v website. A fantasy soccer platform for the brazilian market with the Mars as the main theme.
           </>,
-          <> Created the fantasy soccer feature using ChatGPT, PHP to connect to the PlaceIn CMS with PSQL database and HTML,CSS, JS for the frontend.
+          <> Created the fantasy soccer feature using ChatGPT, PHP to connect to the PlaceIn (Their own workframe) CMS with PSQL database and HTML,CSS, JS for the frontend.
           </>,
           <> Cards to show the players stats, teams, etc. Option to select players and create your own team and save to the database.
           </>,
@@ -520,7 +520,7 @@ const about = {
       },
       {
         company: "Credit Cash Assessoria Financeira",
-        timeframe: "01/2015 - 08/2015",
+        timeframe: "01/2015 - 03/2015",
         role: "Telemarketer - overdue bills collection",
         achievements: [
           <>
@@ -534,6 +534,46 @@ const about = {
           </>,
           <>
           Create spreadsheets for self-management of goals
+          </>
+        ],
+        images: [],
+      },
+      {
+        company: "FUNDAP - acessa escola / State Department of Education",
+        timeframe: "01/2015 - 08/2015",
+        role: "Computer Lab Monitor - Young Apprentice",
+        achievements: [
+          <>
+          Responsible for monitoring and assisting public school users in using computers
+          </>,
+          <>
+          Computer maintenance
+          </>,
+          <>
+          Opening calls
+          </>,
+          <>
+          Scheduling time for use of the computer lab
+          </>
+        ],
+        images: [],
+      },
+      {
+        company: "FUNDAP - acessa escola / State Department of Education",
+        timeframe: "01/2013 - 08/2013",
+        role: "Computer Lab Monitor - Young Apprentice",
+        achievements: [
+          <>
+          Responsible for monitoring and assisting public school users in using computers
+          </>,
+          <>
+          Computer maintenance
+          </>,
+          <>
+          Opening calls
+          </>,
+          <>
+          Scheduling time for use of the computer lab
           </>
         ],
         images: [],
