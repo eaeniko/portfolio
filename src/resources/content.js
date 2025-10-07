@@ -312,11 +312,12 @@ const about = {
           </>,
           <> Cards to show the players stats, teams, etc. Option to select players and create your own team and save to the database.
           </>,
-          <> For the players profile images I used chatGPT too. They styles are cartoon with Mars theme so I dont get copyright issues.
+          <> For the players profile images I used chatGPT too. They styles are cartoon with Mars theme so they dont get copyright issues.
           </>,
-          <>The entire company is dated with terrible design and the project wasnt treated to be good only for sell and generate profit.
+          <>The entire company is outdated with terrible design and the project wasnt treated to be good only for finish as fast as we can to sell and generate profit.
           </>,
-          <>I didnt want to be part of something that even the owner care so I quit. You can see how bad it is here: https://mars-v.co/app_smart</>
+          <>I didnt want to be part of something that even the owner does not care so I quit. You can see how bad it is here: <a target="_blank">https://mars-v.co/app_smart </a>
+          </>
           
         ],
         images: [
