@@ -539,21 +539,18 @@ const about = {
         images: [],
       },
       {
-        company: "FUNDAP - acessa escola / State Department of Education",
-        timeframe: "01/2015 - 08/2015",
-        role: "Computer Lab Monitor - Young Apprentice",
+        company: "SUPRILOG DISTRIBUIDORA DE ALARMES LTDA",
+        timeframe: "11/2013 - 12/2013",
+        role: "Intership",
         achievements: [
           <>
-          Responsible for monitoring and assisting public school users in using computers
+          Opening a call (service order) in the system
           </>,
           <>
-          Computer maintenance
+          Product inventory and organization
           </>,
           <>
-          Opening calls
-          </>,
-          <>
-          Scheduling time for use of the computer lab
+          Installation monitoring
           </>
         ],
         images: [],
