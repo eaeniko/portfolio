@@ -306,8 +306,17 @@ const about = {
         role: "Vibe Coder",
         achievements: [
           <>
-            WIP
+            Using ChatGPT plus I helped create the fantasy soccer feature to the Mars-v website. A fantasy soccer platform for the brazilian market with the Mars as the main theme.
           </>,
+          <> Created the fantasy soccer feature using ChatGPT, PHP to connect to the PlaceIn CMS with PSQL database and HTML,CSS, JS for the frontend.
+          </>,
+          <> Cards to show the players stats, teams, etc. Option to select players and create your own team and save to the database.
+          </>,
+          <> For the players profile images I used chatGPT too. They styles are cartoon with Mars theme so I dont get copyright issues.
+          </>,
+          <>The entire company is dated with terrible design and the project wasnt treated to be good only for sell and generate profit.
+          </>,
+          <>I didnt want to be part of something that even the owner care so I quit. You can see how bad it is here: https://mars-v.co/app_smart</>
           
         ],
         images: [
