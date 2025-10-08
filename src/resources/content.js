@@ -265,7 +265,7 @@ const about = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -287,12 +287,13 @@ const about = {
       {
         company: "Wise Systems - Software House",
         timeframe: "10-2025 - Present | internship",
-        role: "Support Technician / IT support",
+        role: "IT support analyst",
         achievements: [
           <>
-            WIP
+            Responsible for providing technical support to SIGO ERP users.
           </>,
-          <>ERP - SIGO
+          <>
+          SIGO is an ERP system created by WISE focused on occupational health and safety.
           </>,
           
         ],
