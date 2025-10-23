@@ -131,7 +131,7 @@ const social = [
   {
     name: "More Links",
     icon: "bio",
-    link: "https://www.eaeniko.vercel.app/bio"
+    link: "https://eaeniko.vercel.app/bio"
   },
   {
     name: "Email",
