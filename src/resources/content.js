@@ -88,7 +88,7 @@ const bio = {
     {
       title: "Tiktok", // optional
       description: "Funny shorts videos I create and best livestream moments.",
-      url: "https://tiktok.com/@eaeniko", // required if link object exists
+      url: "https://www.tiktok.com/@eaeniko", // required if link object exists
       favicon: true
     },
     {
