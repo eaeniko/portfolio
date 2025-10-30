@@ -274,7 +274,7 @@ const about = {
     description: (
       <>
         Nikolai is a Brazilian streamer with a passion for transforming real life problems challenges
-        into simple, elegant design solutions. His work spans digital interfaces, interactive experiences,
+        into simple, elegant design & gamefied solutions. His work spans digital interfaces, interactive experiences,
         and the convergence of design and technology.
         He loves creating innovative online ideas for streaming and online content.
       </>
