@@ -286,8 +286,8 @@ const about = {
     experiences: [
       {
         company: "Wise Systems - Software House",
-        timeframe: "10-2025 - Present | internship",
-        role: "IT support analyst",
+        timeframe: "10-2025 - 11-2025 | internship",
+        role: "IT support analyst > UI Designer",
         achievements: [
           <>
             Responsible for providing technical support to SIGO ERP users.
@@ -295,6 +295,8 @@ const about = {
           <>
           SIGO is an ERP system created by WISE focused on occupational health and safety.
           </>,
+          <>Created UI design improvements for the SIGO web application using Figma and AI to create usable prototypes
+          </>
           
         ],
         images: [
