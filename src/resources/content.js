@@ -240,7 +240,7 @@ const home = {
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Gendrify ID</strong></>,
-    href: "/work/GID-Gendrify-ID-new-PWA",
+    href: "/work/lit",
   },
   subline: (
     <>
