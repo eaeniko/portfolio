@@ -73,18 +73,7 @@ export default function Home() {
       <RevealFx translateY="16" delay={0.6}>
         <Projects range={[1, 1]} />
       </RevealFx>
-      {routes["/stream"] && (
-        <Flex fillWidth gap="24" s={{direction:"column"}}>
-          <Flex flex={1} paddingLeft="l" paddingTop="24">
-            <Heading as="h2" variant="display-strong-xs" wrap="balance">
-              Learn more about my livestream content
-            </Heading>
-          </Flex>
-          <Flex flex={3} paddingX="20">
-            <PostsStream range={[1, 6]} columns="3" />
-          </Flex>
-        </Flex>
-      )}
+      
       {routes["/learning"] && (
         <Flex fillWidth gap="24" s={{direction:"column"}}>
           <Flex flex={1} paddingLeft="l" paddingTop="24">
@@ -94,6 +83,18 @@ export default function Home() {
           </Flex>
           <Flex flex={3} paddingX="20">
             <PostsLearning range={[1, 2]} columns="2" />
+          </Flex>
+        </Flex>
+      )}
+      {routes["/stream"] && (
+        <Flex fillWidth gap="24" s={{direction:"column"}}>
+          <Flex flex={1} paddingLeft="l" paddingTop="24">
+            <Heading as="h2" variant="display-strong-xs" wrap="balance">
+              Learn more about my livestream content
+            </Heading>
+          </Flex>
+          <Flex flex={3} paddingX="20">
+            <PostsStream range={[1, 6]} columns="3" />
           </Flex>
         </Flex>
       )}

@@ -21,7 +21,7 @@ export default function Live() {
       </Heading>
       <Text wrap="balance" onBackground="neutral-weak" variant="heading-default-xl" align="center">
       <a href="https://eaeniko.vercel.app/stream/" target="_blank" rel="noopener noreferrer">
-        More about my streams (Content, Commands, Setup etc)
+        Click here for more about my streams (Content, Commands, Setup etc)
       </a> 
       </Text>
       <Column fillWidth paddingY="24" gap="m" align="center">
