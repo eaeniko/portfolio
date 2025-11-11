@@ -239,7 +239,7 @@ const home = {
   headline: <>Solving real-world problems through gamification</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Gendrify ID</strong></>,
+    title: <>Recent project: <strong className="ml-4">LIT. Live. Improved. Together</strong></>,
     href: "/work/lit",
   },
   subline: (
