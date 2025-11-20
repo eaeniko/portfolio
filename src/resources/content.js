@@ -329,8 +329,8 @@ const about = {
       },
       {
         company: "GID - Gendrify ID",
-        timeframe: "04-2025 - Present | Volunteer Work ",
-        role: "Project Manager & Full Stack Designer",
+        timeframe: "04-2025 - 11-2025 | Volunteer Work ",
+        role: "Product Manager & Full Stack Designer",
         achievements: [
           <>
             Redesigned the UI/UX for the GID platform and deployed the MVP PWA for users for the first time
