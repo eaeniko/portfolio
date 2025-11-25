@@ -317,9 +317,9 @@ const about = {
           </>,
           <> For the players profile images I used chatGPT too. They styles are cartoon with Mars theme so they dont get copyright issues.
           </>,
-          <>The entire company is outdated with terrible design and the project wasnt treated to be good only for finish as fast as we can to sell and generate profit.
+          <>There was a very quick disappointment regarding the hiring itself. The owner (the same one who hired me) gave me certain information, but nothing was followed through, so I decided to leave.
           </>,
-          <>I didnt want to be part of something that even the owner does not care so I quit. You can see how bad it is here: <a target="_blank">https://mars-v.co/app_smart </a>
+          <>This project: <a href="https://mars-v.co/app_smart" target="_blank">https://mars-v.co/app_smart </a>
           </>
           
         ],
