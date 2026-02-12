@@ -239,13 +239,13 @@ const home = {
   headline: <>Solving real-world problems through gamification</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">LIT. Life. Improved. Together</strong></>,
-    href: "/work/lit",
+    title: <>Recent project: <strong className="ml-4">Okin Club. Crafting Your Universe</strong></>,
+    href: "/work/okin-club",
   },
   subline: (
     <>
     
-      I&apos;m Nikolai, a multi content creator that loves Tech and to
+      I&apos;m Nikolai, a full-stack content creator that loves Tech and to
       do everything on stream. I try to craft innovative ideias
       <br />with intuitive user experiences. After hours, I take care of my cats.
     </>
