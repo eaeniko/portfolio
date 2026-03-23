@@ -285,6 +285,28 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
+        company: "Be Solution Data Intelligence - Google Cloud Partner",
+        timeframe: "02-2026 - now",
+        role: "AI prototype designer & UX/UI designer",
+        achievements: [
+          <>
+            Pioneering role in Product Discovery and Pre-Sales, acting as the strategic bridge between Business, Design, and Engineering through Generative AI.
+          </>,
+          <>Rapid AI Prototyping: Advanced use of LLMs (like Gemini Canvas) to conceptualize and generate high-fidelity, interactive prototypes, drastically reducing the Time-to-Value (TTV) for client validation—transforming days of traditional UX work into hours of execution.</>,
+          <>Product Discovery & Strategy: Partnering directly with the Head of Business to map client pain points, structure conceptual solutions, and drive technical/creative presentations during pre-sales meetings.
+          </>,
+          <>Enterprise AI Solutions & Consulting: Researching and mapping Google Cloud's AI ecosystem (Vertex AI, Agent Assist) to propose scalable, enterprise-grade architectures and integrations during the Discovery phase, aligning technical capabilities with client business goals.
+          </>,
+          <>Technical Feasibility & Architecture: Applying advanced logical reasoning and Software Architecture principles (React/Next.js ecosystem) to ensure all AI-generated concepts are highly scalable and technically viable before handoff to the UX and Engineering teams.
+          </>,
+          <>UX/UI Concepting: Supporting the core UX team in translating validated business requirements into wireframes and conceptual interfaces using Figma.</>,
+          
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+        ],
+      },
+      {
         company: "Wise Systems - Software House",
         timeframe: "10-2025 - 11-2025 | internship",
         role: "IT support analyst > UI Designer",
@@ -296,7 +318,7 @@ const about = {
           SIGO is an ERP system created by WISE focused on occupational health and safety.
           </>,
           <>Created UI design improvements for the SIGO web application using Figma and AI to create usable prototypes
-          </>
+          </>,
           
         ],
         images: [
