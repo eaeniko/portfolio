@@ -285,7 +285,7 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "Be Solution Data Intelligence - Google Cloud Partner",
+        company: "Be Solution Data Intelligence - GCP(Google Cloud Partner)",
         timeframe: "02-2026 - now",
         role: "AI prototype designer & UX/UI designer",
         achievements: [
