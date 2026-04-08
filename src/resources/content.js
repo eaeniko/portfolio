@@ -186,7 +186,7 @@ const bioLinks = [
   {
     name: "Discord",
     icon: "discord",
-    link: "https://discord.gg/n9yEFyMVTz",
+    link: "https://discord.gg/f4N4YagkNQ",
   },
   {
     name: "My Spotify",
